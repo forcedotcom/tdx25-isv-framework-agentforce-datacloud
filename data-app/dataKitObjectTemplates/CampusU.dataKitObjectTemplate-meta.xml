@@ -10,5 +10,5 @@
     <parentDataPackageKitDefinitionName xsi:nil="true" />
     <sourceObject>mvpbo__CampusU</sourceObject>
     <sourceObjectType>MktDataConnection</sourceObjectType>
-    <templateVersion>1</templateVersion>
+    <templateVersion>2</templateVersion>
 </DataKitObjectTemplate>

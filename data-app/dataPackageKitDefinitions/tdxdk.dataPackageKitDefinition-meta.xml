@@ -3,10 +3,10 @@
     <dataKitSource>EXTERNAL</dataKitSource>
     <dataKitType>NONE</dataKitType>
     <deploymentOrder
-  >[{&quot;devName&quot;:&quot;mvpbo__CampusU&quot;,&quot;type&quot;:&quot;DataStream&quot;}, {&quot;devName&quot;:&quot;mvpbo__CampusU&quot;,&quot;type&quot;:&quot;MktDataConnection&quot;}]</deploymentOrder>
+  >[{&quot;devName&quot;:&quot;mvpbo__CampusU&quot;,&quot;type&quot;:&quot;MktDataConnection&quot;}, {&quot;devName&quot;:&quot;mvpbo__CampusUBundle&quot;,&quot;type&quot;:&quot;DataStream&quot;}]</deploymentOrder>
     <developerName>tdxdk</developerName>
     <isDeployed>false</isDeployed>
     <isEnabled>false</isEnabled>
     <masterLabel>tdxdk</masterLabel>
-    <versionNumber>2.0</versionNumber>
+    <versionNumber>3.0</versionNumber>
 </DataPackageKitDefinition>

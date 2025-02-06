@@ -3,6 +3,6 @@
     <masterLabel>tdxdk</masterLabel>
     <parentDataPackageKitDefinitionName
   >mvpbo__tdxdk</parentDataPackageKitDefinitionName>
-    <referenceObjectName>mvpbo__CampusU</referenceObjectName>
+    <referenceObjectName>mvpbo__CampusUBundle</referenceObjectName>
     <referenceObjectType>DataSourceBundleDefinition</referenceObjectType>
 </DataPackageKitObject>

@@ -3,7 +3,7 @@
     <dataConnectionSourceParameters>
         <fullName>failWhenNoData</fullName>
         <paramName>failWhenNoData</paramName>
-        <value>false</value>
+        <value>true</value>
     </dataConnectionSourceParameters>
     <dataConnectionSourceParameters>
         <fullName>fileName</fullName>
@@ -23,9 +23,9 @@
     <dataConnectionSourceParameters>
         <fullName>importDirectory</fullName>
         <paramName>importDirectory</paramName>
-        <value>seneca-academy/</value>
+        <value>INSTITUTION-NAME/</value>
     </dataConnectionSourceParameters>
-    <dataSourceBundleDefinition>CampusU</dataSourceBundleDefinition>
+    <dataSourceBundleDefinition>CampusUBundle</dataSourceBundleDefinition>
     <dataSourceObject>CampusU1</dataSourceObject>
     <masterLabel>CampusU</masterLabel>
     <objectCategory
