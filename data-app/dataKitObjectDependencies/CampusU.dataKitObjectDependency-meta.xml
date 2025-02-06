@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DataKitObjectDependency xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataPackageKitDef>tdxdk</dataPackageKitDef>
+    <developerName>CampusU</developerName>
+    <masterLabel>CampusU</masterLabel>
+    <sourceObject>CampusU_1738679925527</sourceObject>
+    <sourceObjectType>DataStreamTemplate</sourceObjectType>
+    <targetObject>CampusU</targetObject>
+</DataKitObjectDependency>
