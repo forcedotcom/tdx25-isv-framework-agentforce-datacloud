@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DataPackageKitDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataKitSource>EXTERNAL</dataKitSource>
+    <dataKitType>NONE</dataKitType>
+    <deploymentOrder
+  >[{&quot;devName&quot;:&quot;mvpbo__CampusUBundle&quot;,&quot;type&quot;:&quot;DataStream&quot;}]</deploymentOrder>
+    <developerName>tdxdk</developerName>
+    <isDeployed>false</isDeployed>
+    <isEnabled>false</isEnabled>
+    <masterLabel>tdxdk</masterLabel>
+    <versionNumber>3.0</versionNumber>
+</DataPackageKitDefinition>

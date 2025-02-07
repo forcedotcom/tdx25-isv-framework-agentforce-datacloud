@@ -1,0 +1,57 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": false,
+      "postInstallScript": "PostInstall"
+    },
+    {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "path": "data-app",
+      "default": true,
+      "package": "tst-tdx25-data-kit",
+      "versionDescription": ""
+    },
+    {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "path": "justdatastream",
+      "default": false,
+      "package": "tst-justdatastream",
+      "versionDescription": ""
+    },
+    {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "path": "justConnector",
+      "default": false,
+      "package": "justs3",
+      "versionDescription": ""
+    },
+    {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "path": "twoDataKit",
+      "default": false,
+      "package": "tst-twodatakit",
+      "versionDescription": ""
+    }
+  ],
+  "name": "tdx25-isv-framework-agentforce-datacloud",
+  "namespace": "mvpbo",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "63.0",
+  "packageAliases": {
+    "tst-tdx25-data-kit": "0HoHs000000g1CtKAI",
+    "tst-tdx25-data-kit@0.1.0-1": "04tHs000000mrkEIAQ",
+    "tst-tdx25-data-kit@0.1.0-2": "04tHs000000mroRIAQ",
+    "tst-justdatastream": "0HoHs000000g1TUKAY",
+    "tst-justdatastream@0.1.0-1": "04tHs000000msglIAA",
+    "justs3": "0HoHs000000g1TZKAY",
+    "justs3@0.1.0-1": "04tHs000000msgqIAA",
+    "justs3@0.1.0-2": "04tHs000000msgvIAA",
+    "tst-twodatakit": "0HoHs000000g1TeKAI",
+    "tst-twodatakit@0.1.0-1": "04tHs000000mspGIAQ"
+  }
+}

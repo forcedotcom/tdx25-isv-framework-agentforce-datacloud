@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DataKitObjectTemplate
+  xmlns="http://soap.sforce.com/2006/04/metadata"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>
+    <developerName xsi:nil="true" />
+    <entityPayload
+  >{&quot;connection&quot;:{&quot;connectorType&quot;:&quot;AwsS3&quot;,&quot;method&quot;:&quot;Ingress&quot;,&quot;credentials&quot;:[{&quot;paramName&quot;:&quot;authenticationOption&quot;,&quot;value&quot;:&quot;accessKeyAndSecret&quot;}],&quot;lastModifiedDate&quot;:&quot;2025-02-06T21:32:47.000Z&quot;,&quot;editable&quot;:true,&quot;connectorLabel&quot;:&quot;Amazon S3&quot;,&quot;deletable&quot;:true,&quot;label&quot;:&quot;justs3&quot;,&quot;params&quot;:[{&quot;paramName&quot;:&quot;bucketName&quot;,&quot;value&quot;:&quot;tdx25-demo-bucket&quot;},{&quot;paramName&quot;:&quot;parentDirectory&quot;,&quot;value&quot;:&quot;/&quot;}],&quot;url&quot;:&quot;/services/data/v63.0/ssot/connections/9cgDC000000Gn7GYAS&quot;,&quot;createdDate&quot;:&quot;2025-02-06T21:32:45.000Z&quot;,&quot;name&quot;:&quot;justs3&quot;,&quot;namespace&quot;:&quot;mvpbo&quot;,&quot;iconUrl&quot;:&quot;/cdp/images/connectors/AwsS3.svg&quot;,&quot;id&quot;:&quot;9cgDC000000Gn7GYAS&quot;,&quot;syncStatus&quot;:&quot;None&quot;,&quot;status&quot;:&quot;Active&quot;}}</entityPayload>
+    <masterLabel>justs3</masterLabel>
+    <parentDataPackageKitDefinitionName xsi:nil="true" />
+    <sourceObject>mvpbo__justs3</sourceObject>
+    <sourceObjectType>MktDataConnection</sourceObjectType>
+    <templateVersion>1</templateVersion>
+</DataKitObjectTemplate>

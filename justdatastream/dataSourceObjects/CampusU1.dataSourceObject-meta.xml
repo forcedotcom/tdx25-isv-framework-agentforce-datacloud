@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DataSourceObject
+  xmlns="http://soap.sforce.com/2006/04/metadata"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>
+    <dataSource>CampusU</dataSource>
+    <dataSourceFields>
+        <fullName>amount</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>amount</externalName>
+        <fieldFormula>sourceField[&apos;amount&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_amount</keyQualifierName>
+        <masterLabel>amount</masterLabel>
+        <sequence xsi:nil="true" />
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true" />
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>cdp_sys_PartitionDate</fullName>
+        <datatype>F</datatype>
+        <definitionCreationType>System</definitionCreationType>
+        <externalName>cdp_sys_PartitionDate</externalName>
+        <fieldFormula
+    >if(ISEMPTY(formulaField[&apos;mvpbo__createdDate__c&apos;])) { null; } else { DAYPRECISION(formulaField[&apos;mvpbo__createdDate__c&apos;]); }</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>true</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_cdp_sys_PartitionDate</keyQualifierName>
+        <masterLabel>cdp_sys_PartitionDate</masterLabel>
+        <sequence xsi:nil="true" />
+        <usageTag>NONE</usageTag>
+        <versionNumber>1.0</versionNumber>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>createdDate</fullName>
+        <datatype>F</datatype>
+        <dateFormat>yyyy-MM-dd HH:mm:ss</dateFormat>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>createdDate</externalName>
+        <fieldFormula>sourceField[&apos;createdDate&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>true</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_createdDate</keyQualifierName>
+        <masterLabel>createdDate</masterLabel>
+        <sequence xsi:nil="true" />
+        <usageTag>NONE</usageTag>
+        <versionNumber>1.0</versionNumber>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>DataSource</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>System</definitionCreationType>
+        <externalName>DataSource</externalName>
+        <fieldFormula>&apos;CampusU&apos;</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>true</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_DataSource</keyQualifierName>
+        <masterLabel>Data Source</masterLabel>
+        <sequence xsi:nil="true" />
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true" />
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>DataSourceObject</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>System</definitionCreationType>
+        <externalName>DataSourceObject</externalName>
+        <fieldFormula>env[&apos;filename&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>true</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_DataSourceObject</keyQualifierName>
+        <masterLabel>Data Source Object</masterLabel>
+        <sequence xsi:nil="true" />
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true" />
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>email</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>email</externalName>
+        <fieldFormula>sourceField[&apos;email&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_email</keyQualifierName>
+        <masterLabel>email</masterLabel>
+        <sequence xsi:nil="true" />
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true" />
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>first_name</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>first name</externalName>
+        <fieldFormula>sourceField[&apos;first name&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_first_name</keyQualifierName>
+        <masterLabel>first name</masterLabel>
+        <sequence xsi:nil="true" />
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true" />
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>group</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>group</externalName>
+        <fieldFormula>sourceField[&apos;group&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_group</keyQualifierName>
+        <masterLabel>group</masterLabel>
+        <sequence xsi:nil="true" />
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true" />
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Id</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>Id</externalName>
+        <fieldFormula>sourceField[&apos;Id&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Id</keyQualifierName>
+        <masterLabel>Id</masterLabel>
+        <primaryIndexOrder>1</primaryIndexOrder>
+        <sequence xsi:nil="true" />
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true" />
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>InternalOrganization</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>System</definitionCreationType>
+        <externalName>InternalOrganization</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>true</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_InternalOrganization</keyQualifierName>
+        <masterLabel>Internal Organization</masterLabel>
+        <sequence xsi:nil="true" />
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true" />
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>last_name</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>last name</externalName>
+        <fieldFormula>sourceField[&apos;last name&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_last_name</keyQualifierName>
+        <masterLabel>last name</masterLabel>
+        <sequence xsi:nil="true" />
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true" />
+    </dataSourceFields>
+    <externalRecordIdentifier>*.csv</externalRecordIdentifier>
+    <masterLabel>CampusU</masterLabel>
+    <objectType>Object</objectType>
+    <sourceObject>mvpbo__CampusU__dll</sourceObject>
+    <storageType>LOCAL</storageType>
+    <templateVersion>1</templateVersion>
+</DataSourceObject>
