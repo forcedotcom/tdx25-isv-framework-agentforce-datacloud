@@ -1,0 +1,36 @@
+{
+  "orgName": "TDX 25",
+  "edition": "Partner Developer",
+  "release": "preview",
+  "features": [
+    "EnableSetPasswordInApi",
+    "CustomerDataPlatform",
+    "CustomerDataPlatformLite",
+    "Einstein1AIPlatform",
+    "EinsteinGPTForDevelopers",
+    "MarketingUser"
+  ],
+  "settings": {
+    "customerDataPlatformSettings": {
+      "enableCustomerDataPlatform": "true"
+    },
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true,
+      "enableUsersAreLightningOnly": true,
+      "enableLexEndUsersNoSwitching": "true"
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    },
+    "securitySettings": {
+      "enableAdminLoginAsAnyUser": true,
+      "passwordPolicies": {
+        "expiration": "Never",
+        "historyRestriction": "0"
+      },
+      "sessionSettings": {
+        "sessionTimeout": "TwelveHours"
+      }
+    }
+  }
+}
