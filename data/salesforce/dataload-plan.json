@@ -1,0 +1,27 @@
+[
+  {
+    "sobject": "Unit__c",
+    "saveRefs": true,
+    "resolveRefs": true,
+    "files": [
+      "Unit__c.json"
+    ]
+  },
+  {
+    "sobject": "Appliance__c",
+    "saveRefs": true,
+    "resolveRefs": true,
+    "files": [
+      "Appliance__c.json"
+    ]
+  },
+  {
+    "sobject": "Contact",
+    "saveRefs": true,
+    "resolveRefs": true,
+    "files": [
+      "Contact.json"
+    ]
+  }
+
+]

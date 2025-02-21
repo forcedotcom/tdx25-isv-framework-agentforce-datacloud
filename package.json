@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Salesforce App",
   "scripts": {
-    "createData": "node scripts/js/createData.js",
+    "deletePMData": "node scripts/js/deletePropertyManagerData.js",
     "lint": "eslint **/{aura,lwc}/**/*.js",
     "renamespace": "node scripts/js/renamespace.js",
     "test": "npm run test:unit",
@@ -14,11 +14,10 @@
     "test:unit:coverage": "sfdx-lwc-jest --coverage",
     "prettier": "prettier --write \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\"",
     "prettier:verify": "prettier --check \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\"",
-    "postinstall": "husky install",
     "precommit": "lint-staged"
   },
   "devDependencies": {
-    "@lwc/eslint-plugin-lwc": "^1.1.2",
+    "@lwc/eslint-plugin-lwc": "^2.0.0",
     "@prettier/plugin-xml": "^3.2.2",
     "@salesforce/eslint-config-lwc": "^3.2.3",
     "@salesforce/eslint-plugin-aura": "^2.0.0",
@@ -27,6 +26,7 @@
     "eslint": "8.57.1",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jest": "^28.8.1",
+    "fast-csv": "^5.0.1",
     "lint-staged": "^15.1.0",
     "prettier": "^3.1.0",
     "prettier-plugin-apex": "^2.0.1"
