@@ -1,7 +1,6 @@
 {
   "orgName": "TDX 25",
   "edition": "Partner Developer",
-  "release": "preview",
   "features": [
     "EnableSetPasswordInApi",
     "CustomerDataPlatform",
@@ -11,6 +10,9 @@
     "MarketingUser"
   ],
   "settings": {
+    "caseSettings": {
+      "closeCaseThroughStatusChange": true
+    },
     "customerDataPlatformSettings": {
       "enableCustomerDataPlatform": "true"
     },

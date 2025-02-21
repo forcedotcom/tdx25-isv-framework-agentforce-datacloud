@@ -1,0 +1,654 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef1"
+      },
+      "Subject": "Issue with Dishwasher",
+      "Description": "There is an issue with the Dishwasher installed on 2023-04-07.",
+      "Status": "New",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef51",
+      "Appliance__c": "@Appliance__cRef201"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef2"
+      },
+      "Subject": "Issue with Refrigerator",
+      "Description": "There is an issue with the Refrigerator installed on 2023-04-07.",
+      "Status": "New",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef51",
+      "Appliance__c": "@Appliance__cRef202"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef3"
+      },
+      "Subject": "Issue with Microwave",
+      "Description": "There is an issue with the Microwave installed on 2023-04-07.",
+      "Status": "Working",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef51",
+      "Appliance__c": "@Appliance__cRef203"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef4"
+      },
+      "Subject": "Issue with Range",
+      "Description": "There is an issue with the Range installed on 2023-04-07.",
+      "Status": "Working",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef52",
+      "Appliance__c": "@Appliance__cRef204"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef5"
+      },
+      "Subject": "Issue with Washer Dryer Combo",
+      "Description": "There is an issue with the Washer Dryer Combo installed on 2023-04-07.",
+      "Status": "Working",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef52",
+      "Appliance__c": "@Appliance__cRef205"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef6"
+      },
+      "Subject": "Issue with HVAC",
+      "Description": "There is an issue with the HVAC installed on 2023-04-07.",
+      "Status": "Escalated",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef51",
+      "Appliance__c": "@Appliance__cRef206"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef7"
+      },
+      "Subject": "Issue with Dishwasher",
+      "Description": "There is an issue with the Dishwasher installed on 2023-04-08.",
+      "Status": "Closed",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef53",
+      "Appliance__c": "@Appliance__cRef207"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef8"
+      },
+      "Subject": "Issue with Refrigerator",
+      "Description": "There is an issue with the Refrigerator installed on 2023-04-08.",
+      "Status": "Escalated",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef53",
+      "Appliance__c": "@Appliance__cRef208"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef9"
+      },
+      "Subject": "Issue with Microwave",
+      "Description": "There is an issue with the Microwave installed on 2023-04-08.",
+      "Status": "New",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef53",
+      "Appliance__c": "@Appliance__cRef209"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef10"
+      },
+      "Subject": "Issue with Standalone Oven",
+      "Description": "There is an issue with the Standalone Oven installed on 2023-04-08.",
+      "Status": "Closed",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef53",
+      "Appliance__c": "@Appliance__cRef210"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef11"
+      },
+      "Subject": "Issue with Cooktop",
+      "Description": "There is an issue with the Cooktop installed on 2023-04-08.",
+      "Status": "Escalated",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef53",
+      "Appliance__c": "@Appliance__cRef211"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef12"
+      },
+      "Subject": "Issue with Washing Machine",
+      "Description": "There is an issue with the Washing Machine installed on 2023-04-08.",
+      "Status": "Escalated",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef53",
+      "Appliance__c": "@Appliance__cRef212"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef13"
+      },
+      "Subject": "Issue with Dryer",
+      "Description": "There is an issue with the Dryer installed on 2023-04-08.",
+      "Status": "Closed",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef53",
+      "Appliance__c": "@Appliance__cRef213"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef14"
+      },
+      "Subject": "Issue with HVAC",
+      "Description": "There is an issue with the HVAC installed on 2023-04-08.",
+      "Status": "Escalated",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef53",
+      "Appliance__c": "@Appliance__cRef214"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef15"
+      },
+      "Subject": "Issue with Dishwasher",
+      "Description": "There is an issue with the Dishwasher installed on 2023-04-09.",
+      "Status": "Closed",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef54",
+      "Appliance__c": "@Appliance__cRef215"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef16"
+      },
+      "Subject": "Issue with Refrigerator",
+      "Description": "There is an issue with the Refrigerator installed on 2023-04-09.",
+      "Status": "Closed",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef54",
+      "Appliance__c": "@Appliance__cRef216"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef17"
+      },
+      "Subject": "Issue with Microwave",
+      "Description": "There is an issue with the Microwave installed on 2023-04-09.",
+      "Status": "Closed",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef54",
+      "Appliance__c": "@Appliance__cRef217"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef18"
+      },
+      "Subject": "Issue with Range",
+      "Description": "There is an issue with the Range installed on 2023-04-09.",
+      "Status": "Escalated",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef54",
+      "Appliance__c": "@Appliance__cRef218"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef19"
+      },
+      "Subject": "Issue with Washer Dryer Combo",
+      "Description": "There is an issue with the Washer Dryer Combo installed on 2023-04-09.",
+      "Status": "Escalated",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef54",
+      "Appliance__c": "@Appliance__cRef219"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef20"
+      },
+      "Subject": "Issue with HVAC",
+      "Description": "There is an issue with the HVAC installed on 2023-04-09.",
+      "Status": "Escalated",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef54",
+      "Appliance__c": "@Appliance__cRef220"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef21"
+      },
+      "Subject": "Issue with Dishwasher",
+      "Description": "There is an issue with the Dishwasher installed on 2023-04-10.",
+      "Status": "New",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef55",
+      "Appliance__c": "@Appliance__cRef221"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef22"
+      },
+      "Subject": "Issue with Refrigerator",
+      "Description": "There is an issue with the Refrigerator installed on 2023-04-10.",
+      "Status": "Working",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef55",
+      "Appliance__c": "@Appliance__cRef222"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef23"
+      },
+      "Subject": "Issue with Microwave",
+      "Description": "There is an issue with the Microwave installed on 2023-04-10.",
+      "Status": "Closed",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef55",
+      "Appliance__c": "@Appliance__cRef223"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef24"
+      },
+      "Subject": "Issue with Standalone Oven",
+      "Description": "There is an issue with the Standalone Oven installed on 2023-04-11.",
+      "Status": "New",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef56",
+      "Appliance__c": "@Appliance__cRef224"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef25"
+      },
+      "Subject": "Issue with Cooktop",
+      "Description": "There is an issue with the Cooktop installed on 2023-04-11.",
+      "Status": "New",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef56",
+      "Appliance__c": "@Appliance__cRef225"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef26"
+      },
+      "Subject": "Issue with Washing Machine",
+      "Description": "There is an issue with the Washing Machine installed on 2023-04-11.",
+      "Status": "Escalated",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef56",
+      "Appliance__c": "@Appliance__cRef226"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef27"
+      },
+      "Subject": "Issue with Dryer",
+      "Description": "There is an issue with the Dryer installed on 2023-04-11.",
+      "Status": "Escalated",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef56",
+      "Appliance__c": "@Appliance__cRef227"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef28"
+      },
+      "Subject": "Issue with HVAC",
+      "Description": "There is an issue with the HVAC installed on 2023-04-11.",
+      "Status": "Closed",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef56",
+      "Appliance__c": "@Appliance__cRef228"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef29"
+      },
+      "Subject": "Issue with Dishwasher",
+      "Description": "There is an issue with the Dishwasher installed on 2023-04-12.",
+      "Status": "Escalated",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef57",
+      "Appliance__c": "@Appliance__cRef229"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef30"
+      },
+      "Subject": "Issue with Refrigerator",
+      "Description": "There is an issue with the Refrigerator installed on 2023-04-12.",
+      "Status": "Closed",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef57",
+      "Appliance__c": "@Appliance__cRef230"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef31"
+      },
+      "Subject": "Issue with Microwave",
+      "Description": "There is an issue with the Microwave installed on 2023-04-12.",
+      "Status": "Escalated",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef57",
+      "Appliance__c": "@Appliance__cRef231"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef32"
+      },
+      "Subject": "Issue with Range",
+      "Description": "There is an issue with the Range installed on 2023-04-12.",
+      "Status": "Closed",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef57",
+      "Appliance__c": "@Appliance__cRef232"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef33"
+      },
+      "Subject": "Issue with Washer Dryer Combo",
+      "Description": "There is an issue with the Washer Dryer Combo installed on 2023-04-12.",
+      "Status": "Working",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef57",
+      "Appliance__c": "@Appliance__cRef233"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef34"
+      },
+      "Subject": "Issue with HVAC",
+      "Description": "There is an issue with the HVAC installed on 2023-04-12.",
+      "Status": "New",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef57",
+      "Appliance__c": "@Appliance__cRef234"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef35"
+      },
+      "Subject": "Issue with Dishwasher",
+      "Description": "There is an issue with the Dishwasher installed on 2023-04-13.",
+      "Status": "Closed",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef58",
+      "Appliance__c": "@Appliance__cRef235"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef36"
+      },
+      "Subject": "Issue with Refrigerator",
+      "Description": "There is an issue with the Refrigerator installed on 2023-04-13.",
+      "Status": "Working",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef58",
+      "Appliance__c": "@Appliance__cRef236"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef37"
+      },
+      "Subject": "Issue with Microwave",
+      "Description": "There is an issue with the Microwave installed on 2023-04-13.",
+      "Status": "Escalated",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef58",
+      "Appliance__c": "@Appliance__cRef237"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef38"
+      },
+      "Subject": "Issue with Standalone Oven",
+      "Description": "There is an issue with the Standalone Oven installed on 2023-04-13.",
+      "Status": "Escalated",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef58",
+      "Appliance__c": "@Appliance__cRef238"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef39"
+      },
+      "Subject": "Issue with Cooktop",
+      "Description": "There is an issue with the Cooktop installed on 2023-04-13.",
+      "Status": "Working",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef58",
+      "Appliance__c": "@Appliance__cRef239"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef40"
+      },
+      "Subject": "Issue with Washing Machine",
+      "Description": "There is an issue with the Washing Machine installed on 2023-04-13.",
+      "Status": "Closed",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef58",
+      "Appliance__c": "@Appliance__cRef240"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef41"
+      },
+      "Subject": "Issue with Dryer",
+      "Description": "There is an issue with the Dryer installed on 2023-04-13.",
+      "Status": "Closed",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef58",
+      "Appliance__c": "@Appliance__cRef241"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef42"
+      },
+      "Subject": "Issue with HVAC",
+      "Description": "There is an issue with the HVAC installed on 2023-04-13.",
+      "Status": "Closed",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef58",
+      "Appliance__c": "@Appliance__cRef242"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef43"
+      },
+      "Subject": "Issue with Dishwasher",
+      "Description": "There is an issue with the Dishwasher installed on 2023-04-14.",
+      "Status": "Escalated",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef59",
+      "Appliance__c": "@Appliance__cRef243"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef44"
+      },
+      "Subject": "Issue with Refrigerator",
+      "Description": "There is an issue with the Refrigerator installed on 2023-04-14.",
+      "Status": "Escalated",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef59",
+      "Appliance__c": "@Appliance__cRef244"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef45"
+      },
+      "Subject": "Issue with Microwave",
+      "Description": "There is an issue with the Microwave installed on 2023-04-14.",
+      "Status": "Working",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef59",
+      "Appliance__c": "@Appliance__cRef245"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef46"
+      },
+      "Subject": "Issue with Range",
+      "Description": "There is an issue with the Range installed on 2023-04-14.",
+      "Status": "Closed",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef59",
+      "Appliance__c": "@Appliance__cRef246"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef47"
+      },
+      "Subject": "Issue with Washer Dryer Combo",
+      "Description": "There is an issue with the Washer Dryer Combo installed on 2023-04-14.",
+      "Status": "Closed",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef59",
+      "Appliance__c": "@Appliance__cRef247"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef48"
+      },
+      "Subject": "Issue with HVAC",
+      "Description": "There is an issue with the HVAC installed on 2023-04-14.",
+      "Status": "Escalated",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef59",
+      "Appliance__c": "@Appliance__cRef248"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef49"
+      },
+      "Subject": "Issue with Dishwasher",
+      "Description": "There is an issue with the Dishwasher installed on 2023-04-05.",
+      "Status": "Closed",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef60",
+      "Appliance__c": "@Appliance__cRef249"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef50"
+      },
+      "Subject": "Issue with Refrigerator",
+      "Description": "There is an issue with the Refrigerator installed on 2023-04-05.",
+      "Status": "Working",
+      "Origin": "Web",
+      "Priority": "Medium",
+      "ContactId": "@ContactRef60",
+      "Appliance__c": "@Appliance__cRef250"
+    }
+  ]
+}

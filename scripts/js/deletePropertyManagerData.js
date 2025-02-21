@@ -33,5 +33,8 @@ for (let object in objectList) {
         { encoding: "utf8" }
       );
       console.log(`Done deleting ${objectList[object]}.`);
+      // delete _RecordsToDelete.csv file
+      execSync(`rm data/${filename}`);
+      
     });
 }

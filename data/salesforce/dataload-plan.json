@@ -12,7 +12,9 @@
     "saveRefs": true,
     "resolveRefs": true,
     "files": [
-      "Appliance__c.json"
+      "Appliance__c1.json",
+      "Appliance__c2.json",
+      "Appliance__c3.json"
     ]
   },
   {
@@ -21,6 +23,14 @@
     "resolveRefs": true,
     "files": [
       "Contact.json"
+    ]
+  },
+  {
+    "sobject": "Case",
+    "saveRefs": true,
+    "resolveRefs": true,
+    "files": [
+      "Case.json"
     ]
   }
 
