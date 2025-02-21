@@ -14,6 +14,12 @@
                 <default>false</default>
                 <label>QV</label>
             </value>
+            <value>
+                <fullName>Value1</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Value1</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

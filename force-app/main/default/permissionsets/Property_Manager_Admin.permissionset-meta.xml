@@ -7,11 +7,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Appliance__c.Assigned_Unit__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Appliance__c.Brand__c</field>
         <readable>true</readable>
     </fieldPermissions>

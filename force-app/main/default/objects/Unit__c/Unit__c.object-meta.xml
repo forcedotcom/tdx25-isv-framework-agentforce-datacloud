@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
         <actionName>Accept</actionName>
         <type>Default</type>
@@ -143,7 +143,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>Custom_Compact_Layout</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Appliances assigned to an apartment unit</description>
+    <description>Apartment units under management</description>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -154,19 +154,19 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>Appliance</label>
+    <label>Unit</label>
     <nameField>
-        <label>Appliance</label>
+        <label>Unit No.</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Appliances</pluralLabel>
+    <pluralLabel>Units</pluralLabel>
     <searchLayouts>
-        <searchResultsAdditionalFields>Mfg_Serial__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Type__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Brand__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Active__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Installed_Date__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Last_Serviced_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SqFt__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Num_Bath__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Num_Bedroom__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>View__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Finish_level__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Balcony__c</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

@@ -5,7 +5,6 @@
     <fields>Mfg_Serial__c</fields>
     <fields>Type__c</fields>
     <fields>Active__c</fields>
-    <fields>Assigned_Unit__c</fields>
     <fields>Installed_Date__c</fields>
     <fields>Last_Serviced_Date__c</fields>
     <label>Custom Compact Layout</label>
