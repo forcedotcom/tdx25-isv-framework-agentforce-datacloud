@@ -2,14 +2,14 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": false,
+      "default": true,
       "postInstallScript": "PostInstall"
     },
     {
       "versionName": "ver 0.1",
       "versionNumber": "0.1.0.NEXT",
       "path": "data-app",
-      "default": true,
+      "default": false,
       "package": "tst-tdx25-data-kit",
       "versionDescription": ""
     },
@@ -36,6 +36,14 @@
       "default": false,
       "package": "tst-twodatakit",
       "versionDescription": ""
+    },
+    {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "path": "data-app",
+      "default": false,
+      "package": "dataPlusClass",
+      "versionDescription": ""
     }
   ],
   "name": "tdx25-isv-framework-agentforce-datacloud",
@@ -52,6 +60,7 @@
     "justs3@0.1.0-1": "04tHs000000msgqIAA",
     "justs3@0.1.0-2": "04tHs000000msgvIAA",
     "tst-twodatakit": "0HoHs000000g1TeKAI",
-    "tst-twodatakit@0.1.0-1": "04tHs000000mspGIAQ"
+    "tst-twodatakit@0.1.0-1": "04tHs000000mspGIAQ",
+    "dataPlusClass": "0HoHs000000g1bzKAA"
   }
 }
