@@ -27,18 +27,6 @@
     {
       "attributes": {
         "type": "Appliance__c",
-        "referenceId": "Appliance__cRef203"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-07",
-      "Mfg_Serial__c": "L4M5N6O7P8Q9R0S1T503",
-      "Type__c": "Microwave",
-      "Unit__c": "@Unit__cRef26"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
         "referenceId": "Appliance__cRef204"
       },
       "Active__c": true,
@@ -99,42 +87,6 @@
     {
       "attributes": {
         "type": "Appliance__c",
-        "referenceId": "Appliance__cRef209"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-08",
-      "Mfg_Serial__c": "T4U5V6W7X8Y9Z0A1B504",
-      "Type__c": "Microwave",
-      "Unit__c": "@Unit__cRef27"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef210"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-08",
-      "Mfg_Serial__c": "X4Y5Z6A7B8C9D0E1F504",
-      "Type__c": "Standalone Oven",
-      "Unit__c": "@Unit__cRef27"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef211"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-08",
-      "Mfg_Serial__c": "H5I6J7K8L9M0N1O2P504",
-      "Type__c": "Cooktop",
-      "Unit__c": "@Unit__cRef27"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
         "referenceId": "Appliance__cRef212"
       },
       "Active__c": true,
@@ -142,18 +94,6 @@
       "Installed_Date__c": "2023-04-08",
       "Mfg_Serial__c": "R5S6T7U8V9W0X1Y2Z504",
       "Type__c": "Washing Machine",
-      "Unit__c": "@Unit__cRef27"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef213"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-08",
-      "Mfg_Serial__c": "B5C6D7E8F9G0H1I2J504",
-      "Type__c": "Dryer",
       "Unit__c": "@Unit__cRef27"
     },
     {
@@ -190,18 +130,6 @@
       "Installed_Date__c": "2023-04-09",
       "Mfg_Serial__c": "F5G6H7I8J9K0L1M2N505",
       "Type__c": "Refrigerator",
-      "Unit__c": "@Unit__cRef28"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef217"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-09",
-      "Mfg_Serial__c": "P5Q6R7S8T9U0V1W2X505",
-      "Type__c": "Microwave",
       "Unit__c": "@Unit__cRef28"
     },
     {
@@ -267,42 +195,6 @@
     {
       "attributes": {
         "type": "Appliance__c",
-        "referenceId": "Appliance__cRef223"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-10",
-      "Mfg_Serial__c": "R6S7T8U9V0W1X2Y3Z506",
-      "Type__c": "Microwave",
-      "Unit__c": "@Unit__cRef29"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef224"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-11",
-      "Mfg_Serial__c": "B6C7D8E9F0G1H2I3J507",
-      "Type__c": "Standalone Oven",
-      "Unit__c": "@Unit__cRef30"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef225"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-11",
-      "Mfg_Serial__c": "A1B2C3D4E5F6G7H8507",
-      "Type__c": "Cooktop",
-      "Unit__c": "@Unit__cRef30"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
         "referenceId": "Appliance__cRef226"
       },
       "Active__c": true,
@@ -310,18 +202,6 @@
       "Installed_Date__c": "2023-04-11",
       "Mfg_Serial__c": "K1L2M3N4O5P6Q7R8507",
       "Type__c": "Washing Machine",
-      "Unit__c": "@Unit__cRef30"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef227"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-11",
-      "Mfg_Serial__c": "U1V2W3X4Y5Z6A7B8507",
-      "Type__c": "Dryer",
       "Unit__c": "@Unit__cRef30"
     },
     {
@@ -358,18 +238,6 @@
       "Installed_Date__c": "2023-04-12",
       "Mfg_Serial__c": "Y1Z2A3B4C5D6E7F8508",
       "Type__c": "Refrigerator",
-      "Unit__c": "@Unit__cRef31"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef231"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-12",
-      "Mfg_Serial__c": "I1J2K3L4M5N6O7P8508",
-      "Type__c": "Microwave",
       "Unit__c": "@Unit__cRef31"
     },
     {
@@ -436,42 +304,6 @@
     {
       "attributes": {
         "type": "Appliance__c",
-        "referenceId": "Appliance__cRef237"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-13",
-      "Mfg_Serial__c": "Q1R2S3T4U5V6W7X8509",
-      "Type__c": "Microwave",
-      "Unit__c": "@Unit__cRef32"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef238"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-13",
-      "Mfg_Serial__c": "A2B3C4D5E6F7G8H9I509",
-      "Type__c": "Standalone Oven",
-      "Unit__c": "@Unit__cRef32"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef239"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-13",
-      "Mfg_Serial__c": "K2L3M4N5O6P7Q8R9S509",
-      "Type__c": "Cooktop",
-      "Unit__c": "@Unit__cRef32"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
         "referenceId": "Appliance__cRef240"
       },
       "Active__c": true,
@@ -479,18 +311,6 @@
       "Installed_Date__c": "2023-04-13",
       "Mfg_Serial__c": "U2V3W4X5Y6Z7A8B9C509",
       "Type__c": "Washing Machine",
-      "Unit__c": "@Unit__cRef32"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef241"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-13",
-      "Mfg_Serial__c": "E2F3G4H5I6J7K8L9M509",
-      "Type__c": "Dryer",
       "Unit__c": "@Unit__cRef32"
     },
     {
@@ -527,18 +347,6 @@
       "Installed_Date__c": "2023-04-14",
       "Mfg_Serial__c": "I2J3K4L5M6N7O8P9Q510",
       "Type__c": "Refrigerator",
-      "Unit__c": "@Unit__cRef33"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef245"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-14",
-      "Mfg_Serial__c": "S2T3U4V5W6X7Y8Z9A510",
-      "Type__c": "Microwave",
       "Unit__c": "@Unit__cRef33"
     },
     {
@@ -605,18 +413,6 @@
     {
       "attributes": {
         "type": "Appliance__c",
-        "referenceId": "Appliance__cRef251"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-05",
-      "Mfg_Serial__c": "U1V2W3X4Y5Z6A7B8901",
-      "Type__c": "Microwave",
-      "Unit__c": "@Unit__cRef34"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
         "referenceId": "Appliance__cRef252"
       },
       "Active__c": true,
@@ -677,42 +473,6 @@
     {
       "attributes": {
         "type": "Appliance__c",
-        "referenceId": "Appliance__cRef257"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-06",
-      "Mfg_Serial__c": "C1D2E3F4G5H6I7J8902",
-      "Type__c": "Microwave",
-      "Unit__c": "@Unit__cRef35"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef258"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-06",
-      "Mfg_Serial__c": "M1N2O3P4Q5R6S7T8902",
-      "Type__c": "Standalone Oven",
-      "Unit__c": "@Unit__cRef35"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef259"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-06",
-      "Mfg_Serial__c": "W1X2Y3Z4A5B6C7D8902",
-      "Type__c": "Cooktop",
-      "Unit__c": "@Unit__cRef35"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
         "referenceId": "Appliance__cRef260"
       },
       "Active__c": true,
@@ -720,18 +480,6 @@
       "Installed_Date__c": "2023-04-06",
       "Mfg_Serial__c": "G1H2I3J4K5L6M7N8902",
       "Type__c": "Washing Machine",
-      "Unit__c": "@Unit__cRef35"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef261"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-06",
-      "Mfg_Serial__c": "Q1R2S3T4U5V6W7X8902",
-      "Type__c": "Dryer",
       "Unit__c": "@Unit__cRef35"
     },
     {
@@ -768,18 +516,6 @@
       "Installed_Date__c": "2023-04-07",
       "Mfg_Serial__c": "U2V3W4X5Y6Z7A8B9C903",
       "Type__c": "Refrigerator",
-      "Unit__c": "@Unit__cRef36"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef265"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-07",
-      "Mfg_Serial__c": "E2F3G4H5I6J7K8L9M903",
-      "Type__c": "Microwave",
       "Unit__c": "@Unit__cRef36"
     },
     {
@@ -845,42 +581,6 @@
     {
       "attributes": {
         "type": "Appliance__c",
-        "referenceId": "Appliance__cRef271"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-08",
-      "Mfg_Serial__c": "M2N3O4P5Q6R7S8T9U904",
-      "Type__c": "Microwave",
-      "Unit__c": "@Unit__cRef37"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef272"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-08",
-      "Mfg_Serial__c": "W2X3Y4Z5A6B7C8D9E904",
-      "Type__c": "Standalone Oven",
-      "Unit__c": "@Unit__cRef37"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef273"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-08",
-      "Mfg_Serial__c": "G2H3I4J5K6L7M8N9O904",
-      "Type__c": "Cooktop",
-      "Unit__c": "@Unit__cRef37"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
         "referenceId": "Appliance__cRef274"
       },
       "Active__c": true,
@@ -888,18 +588,6 @@
       "Installed_Date__c": "2023-04-08",
       "Mfg_Serial__c": "Q2R3S4T5U6V7W8X9Y904",
       "Type__c": "Washing Machine",
-      "Unit__c": "@Unit__cRef37"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef275"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-08",
-      "Mfg_Serial__c": "A3B4C5D6E7F8G9H0I904",
-      "Type__c": "Dryer",
       "Unit__c": "@Unit__cRef37"
     },
     {
@@ -936,18 +624,6 @@
       "Installed_Date__c": "2023-04-09",
       "Mfg_Serial__c": "E3F4G5H6I7J8K9L0M905",
       "Type__c": "Refrigerator",
-      "Unit__c": "@Unit__cRef38"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef279"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-09",
-      "Mfg_Serial__c": "O3P4Q5R6S7T8U9V0W905",
-      "Type__c": "Microwave",
       "Unit__c": "@Unit__cRef38"
     },
     {
@@ -1013,42 +689,6 @@
     {
       "attributes": {
         "type": "Appliance__c",
-        "referenceId": "Appliance__cRef285"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-10",
-      "Mfg_Serial__c": "W3X4Y5Z6A7B8C9D0E906",
-      "Type__c": "Microwave",
-      "Unit__c": "@Unit__cRef39"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef286"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-11",
-      "Mfg_Serial__c": "H4I5J6K7L8M9N0O1P907",
-      "Type__c": "Standalone Oven",
-      "Unit__c": "@Unit__cRef40"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef287"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-11",
-      "Mfg_Serial__c": "R4S5T6U7V8W9X0Y1Z907",
-      "Type__c": "Cooktop",
-      "Unit__c": "@Unit__cRef40"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
         "referenceId": "Appliance__cRef288"
       },
       "Active__c": true,
@@ -1056,18 +696,6 @@
       "Installed_Date__c": "2023-04-11",
       "Mfg_Serial__c": "B4C5D6E7F8G9H0I1J907",
       "Type__c": "Washing Machine",
-      "Unit__c": "@Unit__cRef40"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef289"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-11",
-      "Mfg_Serial__c": "L4M5N6O7P8Q9R0S1T907",
-      "Type__c": "Dryer",
       "Unit__c": "@Unit__cRef40"
     },
     {
@@ -1104,18 +732,6 @@
       "Installed_Date__c": "2023-04-12",
       "Mfg_Serial__c": "P4Q5R6S7T8U9V0W1X908",
       "Type__c": "Refrigerator",
-      "Unit__c": "@Unit__cRef41"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef293"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-12",
-      "Mfg_Serial__c": "Z4A5B6C7D8E9F0G1H908",
-      "Type__c": "Microwave",
       "Unit__c": "@Unit__cRef41"
     },
     {
@@ -1181,42 +797,6 @@
     {
       "attributes": {
         "type": "Appliance__c",
-        "referenceId": "Appliance__cRef299"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-13",
-      "Mfg_Serial__c": "B5C6D7E8F9G0H1I2J909",
-      "Type__c": "Microwave",
-      "Unit__c": "@Unit__cRef42"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef300"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-13",
-      "Mfg_Serial__c": "L5M6N7O8P9Q0R1S2T909",
-      "Type__c": "Standalone Oven",
-      "Unit__c": "@Unit__cRef42"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef301"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-13",
-      "Mfg_Serial__c": "V5W6X7Y8Z9A0B1C2D909",
-      "Type__c": "Cooktop",
-      "Unit__c": "@Unit__cRef42"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
         "referenceId": "Appliance__cRef302"
       },
       "Active__c": true,
@@ -1224,18 +804,6 @@
       "Installed_Date__c": "2023-04-13",
       "Mfg_Serial__c": "F5G6H7I8J9K0L1M2N909",
       "Type__c": "Washing Machine",
-      "Unit__c": "@Unit__cRef42"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef303"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-13",
-      "Mfg_Serial__c": "P5Q6R7S8T9U0V1W2X909",
-      "Type__c": "Dryer",
       "Unit__c": "@Unit__cRef42"
     },
     {
@@ -1272,18 +840,6 @@
       "Installed_Date__c": "2023-04-14",
       "Mfg_Serial__c": "T5U6V7W8X9Y0Z1A2B910",
       "Type__c": "Refrigerator",
-      "Unit__c": "@Unit__cRef43"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef307"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-14",
-      "Mfg_Serial__c": "X5Y6Z7A8B9C0D1E2F910",
-      "Type__c": "Microwave",
       "Unit__c": "@Unit__cRef43"
     },
     {
@@ -1349,18 +905,6 @@
     {
       "attributes": {
         "type": "Appliance__c",
-        "referenceId": "Appliance__cRef313"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-05",
-      "Mfg_Serial__c": "U1V2W3X4Y5Z6A7B81001",
-      "Type__c": "Microwave",
-      "Unit__c": "@Unit__cRef44"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
         "referenceId": "Appliance__cRef314"
       },
       "Active__c": true,
@@ -1421,42 +965,6 @@
     {
       "attributes": {
         "type": "Appliance__c",
-        "referenceId": "Appliance__cRef319"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-06",
-      "Mfg_Serial__c": "C1D2E3F4G5H6I7J81002",
-      "Type__c": "Microwave",
-      "Unit__c": "@Unit__cRef45"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef320"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-06",
-      "Mfg_Serial__c": "M1N2O3P4Q5R6S7T81002",
-      "Type__c": "Standalone Oven",
-      "Unit__c": "@Unit__cRef45"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef321"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-06",
-      "Mfg_Serial__c": "W1X2Y3Z4A5B6C7D81002",
-      "Type__c": "Cooktop",
-      "Unit__c": "@Unit__cRef45"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
         "referenceId": "Appliance__cRef322"
       },
       "Active__c": true,
@@ -1464,18 +972,6 @@
       "Installed_Date__c": "2023-04-06",
       "Mfg_Serial__c": "G1H2I3J4K5L6M7N81002",
       "Type__c": "Washing Machine",
-      "Unit__c": "@Unit__cRef45"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef323"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-06",
-      "Mfg_Serial__c": "Q1R2S3T4U5V6W7X81002",
-      "Type__c": "Dryer",
       "Unit__c": "@Unit__cRef45"
     },
     {
@@ -1512,18 +1008,6 @@
       "Installed_Date__c": "2023-04-07",
       "Mfg_Serial__c": "U2V3W4X5Y6Z7A8B9C1003",
       "Type__c": "Refrigerator",
-      "Unit__c": "@Unit__cRef46"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef327"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-07",
-      "Mfg_Serial__c": "E2F3G4H5I6J7K8L9M1003",
-      "Type__c": "Microwave",
       "Unit__c": "@Unit__cRef46"
     },
     {
@@ -1589,42 +1073,6 @@
     {
       "attributes": {
         "type": "Appliance__c",
-        "referenceId": "Appliance__cRef333"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-08",
-      "Mfg_Serial__c": "M2N3O4P5Q6R7S8T9U1004",
-      "Type__c": "Microwave",
-      "Unit__c": "@Unit__cRef47"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef334"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-08",
-      "Mfg_Serial__c": "W2X3Y4Z5A6B7C8D9E1004",
-      "Type__c": "Standalone Oven",
-      "Unit__c": "@Unit__cRef47"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef335"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-08",
-      "Mfg_Serial__c": "G2H3I4J5K6L7M8N9O1004",
-      "Type__c": "Cooktop",
-      "Unit__c": "@Unit__cRef47"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
         "referenceId": "Appliance__cRef336"
       },
       "Active__c": true,
@@ -1632,18 +1080,6 @@
       "Installed_Date__c": "2023-04-08",
       "Mfg_Serial__c": "Q2R3S4T5U6V7W8X9Y1004",
       "Type__c": "Washing Machine",
-      "Unit__c": "@Unit__cRef47"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef337"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-08",
-      "Mfg_Serial__c": "A3B4C5D6E7F8G9H0I1004",
-      "Type__c": "Dryer",
       "Unit__c": "@Unit__cRef47"
     },
     {
@@ -1680,18 +1116,6 @@
       "Installed_Date__c": "2023-04-09",
       "Mfg_Serial__c": "E3F4G5H6I7J8K9L0M1005",
       "Type__c": "Refrigerator",
-      "Unit__c": "@Unit__cRef48"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef341"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-09",
-      "Mfg_Serial__c": "O3P4Q5R6S7T8U9V0W1005",
-      "Type__c": "Microwave",
       "Unit__c": "@Unit__cRef48"
     },
     {
@@ -1757,42 +1181,6 @@
     {
       "attributes": {
         "type": "Appliance__c",
-        "referenceId": "Appliance__cRef347"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-10",
-      "Mfg_Serial__c": "W3X4Y5Z6A7B8C9D0E1006",
-      "Type__c": "Microwave",
-      "Unit__c": "@Unit__cRef49"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef348"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-11",
-      "Mfg_Serial__c": "H4I5J6K7L8M9N0O1P1007",
-      "Type__c": "Standalone Oven",
-      "Unit__c": "@Unit__cRef50"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef349"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-11",
-      "Mfg_Serial__c": "R4S5T6U7V8W9X0Y1Z1007",
-      "Type__c": "Cooktop",
-      "Unit__c": "@Unit__cRef50"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
         "referenceId": "Appliance__cRef350"
       },
       "Active__c": true,
@@ -1800,18 +1188,6 @@
       "Installed_Date__c": "2023-04-11",
       "Mfg_Serial__c": "B4C5D6E7F8G9H0I1J1007",
       "Type__c": "Washing Machine",
-      "Unit__c": "@Unit__cRef50"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef351"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-11",
-      "Mfg_Serial__c": "L4M5N6O7P8Q9R0S1T1007",
-      "Type__c": "Dryer",
       "Unit__c": "@Unit__cRef50"
     },
     {
@@ -1848,18 +1224,6 @@
       "Installed_Date__c": "2023-04-12",
       "Mfg_Serial__c": "P4Q5R6S7T8U9V0W1X1008",
       "Type__c": "Refrigerator",
-      "Unit__c": "@Unit__cRef51"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef355"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-12",
-      "Mfg_Serial__c": "Z4A5B6C7D8E9F0G1H1008",
-      "Type__c": "Microwave",
       "Unit__c": "@Unit__cRef51"
     },
     {
@@ -1925,42 +1289,6 @@
     {
       "attributes": {
         "type": "Appliance__c",
-        "referenceId": "Appliance__cRef361"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-13",
-      "Mfg_Serial__c": "B5C6D7E8F9G0H1I2J1009",
-      "Type__c": "Microwave",
-      "Unit__c": "@Unit__cRef52"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef362"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-13",
-      "Mfg_Serial__c": "L5M6N7O8P9Q0R1S2T1009",
-      "Type__c": "Standalone Oven",
-      "Unit__c": "@Unit__cRef52"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef363"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-13",
-      "Mfg_Serial__c": "V5W6X7Y8Z9A0B1C2D1009",
-      "Type__c": "Cooktop",
-      "Unit__c": "@Unit__cRef52"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
         "referenceId": "Appliance__cRef364"
       },
       "Active__c": true,
@@ -1968,18 +1296,6 @@
       "Installed_Date__c": "2023-04-13",
       "Mfg_Serial__c": "F5G6H7I8J9K0L1M2N1009",
       "Type__c": "Washing Machine",
-      "Unit__c": "@Unit__cRef52"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef365"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-13",
-      "Mfg_Serial__c": "P5Q6R7S8T9U0V1W2X1009",
-      "Type__c": "Dryer",
       "Unit__c": "@Unit__cRef52"
     },
     {
@@ -2016,18 +1332,6 @@
       "Installed_Date__c": "2023-04-14",
       "Mfg_Serial__c": "T5U6V7W8X9Y0Z1A2B1010",
       "Type__c": "Refrigerator",
-      "Unit__c": "@Unit__cRef53"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef369"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-14",
-      "Mfg_Serial__c": "X5Y6Z7A8B9C0D1E2F1010",
-      "Type__c": "Microwave",
       "Unit__c": "@Unit__cRef53"
     },
     {
@@ -2093,18 +1397,6 @@
     {
       "attributes": {
         "type": "Appliance__c",
-        "referenceId": "Appliance__cRef375"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-05",
-      "Mfg_Serial__c": "U1V2W3X4Y5Z6A7B81101",
-      "Type__c": "Microwave",
-      "Unit__c": "@Unit__cRef54"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
         "referenceId": "Appliance__cRef376"
       },
       "Active__c": true,
@@ -2165,42 +1457,6 @@
     {
       "attributes": {
         "type": "Appliance__c",
-        "referenceId": "Appliance__cRef381"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-06",
-      "Mfg_Serial__c": "C1D2E3F4G5H6I7J81102",
-      "Type__c": "Microwave",
-      "Unit__c": "@Unit__cRef55"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef382"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-06",
-      "Mfg_Serial__c": "M1N2O3P4Q5R6S7T81102",
-      "Type__c": "Standalone Oven",
-      "Unit__c": "@Unit__cRef55"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef383"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-06",
-      "Mfg_Serial__c": "W1X2Y3Z4A5B6C7D81102",
-      "Type__c": "Cooktop",
-      "Unit__c": "@Unit__cRef55"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
         "referenceId": "Appliance__cRef384"
       },
       "Active__c": true,
@@ -2208,18 +1464,6 @@
       "Installed_Date__c": "2023-04-06",
       "Mfg_Serial__c": "G1H2I3J4K5L6M7N81102",
       "Type__c": "Washing Machine",
-      "Unit__c": "@Unit__cRef55"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef385"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-06",
-      "Mfg_Serial__c": "Q1R2S3T4U5V6W7X81102",
-      "Type__c": "Dryer",
       "Unit__c": "@Unit__cRef55"
     },
     {
@@ -2256,18 +1500,6 @@
       "Installed_Date__c": "2023-04-07",
       "Mfg_Serial__c": "U2V3W4X5Y6Z7A8B9C1103",
       "Type__c": "Refrigerator",
-      "Unit__c": "@Unit__cRef56"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef389"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-07",
-      "Mfg_Serial__c": "E2F3G4H5I6J7K8L9M1103",
-      "Type__c": "Microwave",
       "Unit__c": "@Unit__cRef56"
     },
     {
@@ -2333,42 +1565,6 @@
     {
       "attributes": {
         "type": "Appliance__c",
-        "referenceId": "Appliance__cRef395"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-08",
-      "Mfg_Serial__c": "M2N3O4P5Q6R7S8T9U1104",
-      "Type__c": "Microwave",
-      "Unit__c": "@Unit__cRef57"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef396"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-08",
-      "Mfg_Serial__c": "W2X3Y4Z5A6B7C8D9E1104",
-      "Type__c": "Standalone Oven",
-      "Unit__c": "@Unit__cRef57"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef397"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-08",
-      "Mfg_Serial__c": "G2H3I4J5K6L7M8N9O1104",
-      "Type__c": "Cooktop",
-      "Unit__c": "@Unit__cRef57"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
         "referenceId": "Appliance__cRef398"
       },
       "Active__c": true,
@@ -2376,18 +1572,6 @@
       "Installed_Date__c": "2023-04-08",
       "Mfg_Serial__c": "Q2R3S4T5U6V7W8X9Y1104",
       "Type__c": "Washing Machine",
-      "Unit__c": "@Unit__cRef57"
-    },
-    {
-      "attributes": {
-        "type": "Appliance__c",
-        "referenceId": "Appliance__cRef399"
-      },
-      "Active__c": true,
-      "Brand__c": "QV",
-      "Installed_Date__c": "2023-04-08",
-      "Mfg_Serial__c": "A3B4C5D6E7F8G9H0I1104",
-      "Type__c": "Dryer",
       "Unit__c": "@Unit__cRef57"
     },
     {
