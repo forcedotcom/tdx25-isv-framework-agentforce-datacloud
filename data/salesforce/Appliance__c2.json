@@ -45,7 +45,7 @@
       "Brand__c": "QV",
       "Installed_Date__c": "2023-04-07",
       "Mfg_Serial__c": "F4G5H6I7J8K9L0M1N503",
-      "Type__c": "Washer Dryer Combo",
+      "Type__c": "Washer",
       "Unit__c": "@Unit__cRef26"
     },
     {
@@ -153,7 +153,7 @@
       "Brand__c": "QV",
       "Installed_Date__c": "2023-04-09",
       "Mfg_Serial__c": "J5K6L7M8N9O0P1Q2R505",
-      "Type__c": "Washer Dryer Combo",
+      "Type__c": "Washer",
       "Unit__c": "@Unit__cRef28"
     },
     {
@@ -262,7 +262,7 @@
       "Brand__c": "QV",
       "Installed_Date__c": "2023-04-12",
       "Mfg_Serial__c": "C1D2E3F4G5H6I7J8508",
-      "Type__c": "Washer Dryer Combo",
+      "Type__c": "Washer",
       "Unit__c": "@Unit__cRef31"
     },
     {
@@ -370,7 +370,7 @@
       "Brand__c": "QV",
       "Installed_Date__c": "2023-04-14",
       "Mfg_Serial__c": "M2N3O4P5Q6R7S8T9U510",
-      "Type__c": "Washer Dryer Combo",
+      "Type__c": "Washer",
       "Unit__c": "@Unit__cRef33"
     },
     {
@@ -431,7 +431,7 @@
       "Brand__c": "QV",
       "Installed_Date__c": "2023-04-05",
       "Mfg_Serial__c": "O1P2Q3R4S5T6U7V8901",
-      "Type__c": "Washer Dryer Combo",
+      "Type__c": "Washer",
       "Unit__c": "@Unit__cRef34"
     },
     {
@@ -539,7 +539,7 @@
       "Brand__c": "QV",
       "Installed_Date__c": "2023-04-07",
       "Mfg_Serial__c": "Y2Z3A4B5C6D7E8F9G903",
-      "Type__c": "Washer Dryer Combo",
+      "Type__c": "Washer",
       "Unit__c": "@Unit__cRef36"
     },
     {
@@ -647,7 +647,7 @@
       "Brand__c": "QV",
       "Installed_Date__c": "2023-04-09",
       "Mfg_Serial__c": "I3J4K5L6M7N8O9P0Q905",
-      "Type__c": "Washer Dryer Combo",
+      "Type__c": "Washer",
       "Unit__c": "@Unit__cRef38"
     },
     {
@@ -755,7 +755,7 @@
       "Brand__c": "QV",
       "Installed_Date__c": "2023-04-12",
       "Mfg_Serial__c": "T4U5V6W7X8Y9Z0A1B908",
-      "Type__c": "Washer Dryer Combo",
+      "Type__c": "Washer",
       "Unit__c": "@Unit__cRef41"
     },
     {
@@ -863,7 +863,7 @@
       "Brand__c": "QV",
       "Installed_Date__c": "2023-04-14",
       "Mfg_Serial__c": "R6S7T8U9V0W1X2Y3Z910",
-      "Type__c": "Washer Dryer Combo",
+      "Type__c": "Washer",
       "Unit__c": "@Unit__cRef43"
     },
     {
@@ -923,7 +923,7 @@
       "Brand__c": "QV",
       "Installed_Date__c": "2023-04-05",
       "Mfg_Serial__c": "O1P2Q3R4S5T6U7V81001",
-      "Type__c": "Washer Dryer Combo",
+      "Type__c": "Washer",
       "Unit__c": "@Unit__cRef44"
     },
     {
@@ -1031,7 +1031,7 @@
       "Brand__c": "QV",
       "Installed_Date__c": "2023-04-07",
       "Mfg_Serial__c": "Y2Z3A4B5C6D7E8F9G1003",
-      "Type__c": "Washer Dryer Combo",
+      "Type__c": "Washer",
       "Unit__c": "@Unit__cRef46"
     },
     {
@@ -1139,7 +1139,7 @@
       "Brand__c": "QV",
       "Installed_Date__c": "2023-04-09",
       "Mfg_Serial__c": "I3J4K5L6M7N8O9P0Q1005",
-      "Type__c": "Washer Dryer Combo",
+      "Type__c": "Washer",
       "Unit__c": "@Unit__cRef48"
     },
     {
@@ -1247,7 +1247,7 @@
       "Brand__c": "QV",
       "Installed_Date__c": "2023-04-12",
       "Mfg_Serial__c": "T4U5V6W7X8Y9Z0A1B1008",
-      "Type__c": "Washer Dryer Combo",
+      "Type__c": "Washer",
       "Unit__c": "@Unit__cRef51"
     },
     {
@@ -1355,7 +1355,7 @@
       "Brand__c": "QV",
       "Installed_Date__c": "2023-04-14",
       "Mfg_Serial__c": "R6S7T8U9V0W1X2Y3Z1010",
-      "Type__c": "Washer Dryer Combo",
+      "Type__c": "Washer",
       "Unit__c": "@Unit__cRef53"
     },
     {
@@ -1415,7 +1415,7 @@
       "Brand__c": "QV",
       "Installed_Date__c": "2023-04-05",
       "Mfg_Serial__c": "O1P2Q3R4S5T6U7V81101",
-      "Type__c": "Washer Dryer Combo",
+      "Type__c": "Washer",
       "Unit__c": "@Unit__cRef54"
     },
     {
@@ -1523,7 +1523,7 @@
       "Brand__c": "QV",
       "Installed_Date__c": "2023-04-07",
       "Mfg_Serial__c": "Y2Z3A4B5C6D7E8F9G1103",
-      "Type__c": "Washer Dryer Combo",
+      "Type__c": "Washer",
       "Unit__c": "@Unit__cRef56"
     },
     {
