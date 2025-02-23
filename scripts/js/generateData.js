@@ -127,7 +127,26 @@ const hvacColConfig = {
   DuctPressure: { range: { min: 0.3, max: 0.8, outlierProbability: 0.05, type: 'float' } }
 };
 
+const refrigeratorColConfig = {
+  "Serial Number": applianceMap["Refrigerator"], // Array of values
+  FridgeTemperature: { range: { min: 35, max: 40, outlierProbability: 0.05, type: 'float' } },
+  FreezerTemperature: { range: { min: 0, max: 5, outlierProbability: 0.05, type: 'float' } },
+  MaxDecibels: { range: { min: 0, max: 40, outlierProbability: 0.05, type: 'int' } },
+  EnergyConsumption: { range: { min: 0.5, max: 1.5, outlierProbability: 0.01, type: 'float' } },
+  DefrostCycleFrequency: { range: { min: 6, max: 8, outlierProbability: 0.05, type: 'int' } }
+};
 
-generateDummyData(hvacColConfig, "hvac.json", {
+const washerColConfig = {
+  "Serial Number": applianceMap["Washer"], // Array of values
+  WaterUsage: { range: { min: 15, max: 20, outlierProbability: 0.01, type: 'int' } },
+  MaxWaterTemperature: { range: { min: 40, max: 140, outlierProbability: 0.05, type: 'int' } },
+  SpinSpeed: { range: { min: 600, max: 1400, outlierProbability: 0.05, type: 'int' } },
+  MaxDecibels: { range: { min: 50, max: 70, outlierProbability: 0.05, type: 'int' } },
+  EnergyConsumption: { range: { min: 0.2, max: 1.5, outlierProbability: 0.05, type: 'float' } },
+  VibrationLevel: { range: { min: 0.5, max: 1.0, outlierProbability: 0.05, type: 'float' } },
+};
+
+const parentFolder = 'data/s3/';
+generateDummyData(hvacColConfig, parentFolder + "hvac.json", {
   keyAttribute: "Serial Number"
 });

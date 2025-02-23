@@ -5,6 +5,7 @@
   "description": "Salesforce App",
   "scripts": {
     "deletePMData": "node scripts/js/deletePropertyManagerData.js",
+    "generateS3Data": "node scripts/js/generateData.js",
     "insertCRMData": "sf data import tree -p data/salesforce/dataload-plan.json",
     "lint": "eslint **/{aura,lwc}/**/*.js",
     "renamespace": "node scripts/js/renamespace.js",
