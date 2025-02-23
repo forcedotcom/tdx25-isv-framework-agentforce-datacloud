@@ -18,6 +18,7 @@
     "precommit": "lint-staged"
   },
   "devDependencies": {
+    "@faker-js/faker": "^9.5.0",
     "@lwc/eslint-plugin-lwc": "^2.0.0",
     "@prettier/plugin-xml": "^3.2.2",
     "@salesforce/eslint-config-lwc": "^3.2.3",
