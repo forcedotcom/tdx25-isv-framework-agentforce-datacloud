@@ -9,7 +9,7 @@
     <name>CustomObject</name>
   </types>
   <types>
-    <members>*</members>
+    <members>mvpbo2__PropertyManagerS3Connector</members>
     <name>DataSource</name>
   </types>
   <types>
