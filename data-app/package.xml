@@ -1,6 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
   <namespacePrefix>mvpbo2</namespacePrefix>
+  <types>
+    <members>mvpbo2__dishwasher__dlm</members>
+    <members>mvpbo2__hvac__dlm</members>
+    <members>mvpbo2__refrigerator__dlm</members>
+    <members>mvpbo2__washer__dlm</members>
+    <name>CustomObject</name>
+  </types>
   <types>
     <members>*</members>
     <name>DataSource</name>
