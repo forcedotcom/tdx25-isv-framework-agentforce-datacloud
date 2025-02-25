@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataPackageKitDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataKitSource>LOCAL</dataKitSource>
+    <dataKitType>NONE</dataKitType>
+    <deploymentOrder>[{&quot;devName&quot;:&quot;mvpbo2__PropertyManagerS3Connector&quot;,&quot;type&quot;:&quot;MktDataConnection&quot;}]</deploymentOrder>
+    <description>Data Kit containing the S3 connector for Property Manager Data</description>
+    <developerName>PropertyManagerS3ConnectorDK</developerName>
+    <isDeployed>false</isDeployed>
+    <isEnabled>false</isEnabled>
+    <masterLabel>PropertyManagerS3ConnectorDK</masterLabel>
+    <versionNumber>2.0</versionNumber>
+</DataPackageKitDefinition>
