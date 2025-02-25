@@ -7,7 +7,7 @@
     "createOrg": "sf org create scratch -f config/project-scratch-def.json -w 10 -y 30 -d -a", 
     "deletePMData": "node scripts/js/deletePropertyManagerData.js",
     "generateS3Data": "node scripts/js/generateData.js",
-    "insertCRMData": "sf data import tree -p data/salesforce/dataload-plan.json",
+    "insertPMData": "sf data import tree -p data/salesforce/dataload-plan.json --json > data/salesforce/dataload-result.json",
     "lint": "eslint **/{aura,lwc}/**/*.js",
     "renamespace": "node scripts/js/renamespace.js",
     "test": "npm run test:unit",

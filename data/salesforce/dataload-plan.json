@@ -1,6 +1,6 @@
 [
   {
-    "sobject": "Unit__c",
+    "sobject": "mvpbo2__Unit__c",
     "saveRefs": true,
     "resolveRefs": true,
     "files": [
@@ -8,7 +8,7 @@
     ]
   },
   {
-    "sobject": "Appliance__c",
+    "sobject": "mvpbo2__Appliance__c",
     "saveRefs": true,
     "resolveRefs": true,
     "files": [
