@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSrcDataModelFieldMap xmlns="http://soap.sforce.com/2006/04/metadata">
+    <filterApplied>false</filterApplied>
+    <masterLabel>PropertyManagerAppliancesDKPropertyManagerS3ConnectorMaxWaterTempdishwasherMaxWaterTempNKvIWesUaesFyTi</masterLabel>
+    <sourceField>mvpbo2__dishwasher1.mvpbo2__MaxWaterTemp__c</sourceField>
+    <targetField>mvpbo2__dishwasher__dlm.mvpbo2__MaxWaterTemp__c</targetField>
+    <templateVersion>1</templateVersion>
+    <versionNumber>1.0</versionNumber>
+</DataSrcDataModelFieldMap>
