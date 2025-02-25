@@ -6,7 +6,7 @@
     }
   ],
   "name": "tdx25-isv-framework-agentforce-datacloud",
-  "namespace": "mvpbo",
+  "namespace": "mvpbo2",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "63.0"
 }
