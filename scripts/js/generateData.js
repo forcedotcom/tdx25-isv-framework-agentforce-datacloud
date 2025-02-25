@@ -9,8 +9,8 @@ function createApplianceMap(applianceFiles) {
     const jsonData = JSON.parse(fs.readFileSync(filePath, "utf8"));
 
     jsonData.records.forEach((record) => {
-      const type = record.Type__c;
-      const serial = record.Mfg_Serial__c;
+      const type = record.mvpbo2__Type__c;
+      const serial = record.mvpbo2__Mfg_Serial__c;
 
       if (!typeToSerialsMap[type]) {
         typeToSerialsMap[type] = [];
@@ -34,7 +34,7 @@ function generateDummyData(applianceName, columnConfig, outputFolder, options = 
     timespanDays = 30,
     outputFormat = "csv" 
   } = options;
-
+  
   const columnsConfig = columnConfig[applianceName];
 
   const generateTimestamp = (day) => {
@@ -139,19 +139,19 @@ const applianceFiles = [
 ];
 
 const applianceMap = createApplianceMap(applianceFiles);
-// print keys in applianceMap
 
 const columnConfig = {
   dishwasher: {
-  "Serial Number": applianceMap["Dishwasher"], // Array of values
-  Temperature: { range: { min: 68, max: 78, type: "float" } }, // Range with default outlier probability
-  Humidity: {
-    range: { min: 30, max: 60, outlierProbability: 0.05, type: "float" }
-  }, // Range with custom outlier probability
-  Status: ["On", "Off"] // Array of values
+    SerialNumber: applianceMap["Dishwasher"], // Array of values
+    WaterUsage: {range: {min:2, max:6, type:"float", outlierProbability:0.05}},
+    MaxWaterTemp: {range: {min:110, max:150, type:"int", outlierProbability:0.05}},
+    MinWaterTemp: {range: {min:110, max:125, type:"int", outlierProbability:0.05}},
+    DryingTemp: {range: {min:140, max:160, type:"int", outlierProbability:0.05}},
+    MaxDecibels: {range: {min:40, max:55, type:"int", outlierProbability:0.05}},
+    EnergyConsumption: {range: {min:0.5, max:1.5, type:"float", outlierProbability:0.05}}
 },
 hvac: {
-  "Serial Number": applianceMap["Dishwasher"], // Array of values
+  SerialNumber: applianceMap["HVAC"], // Array of values
   TemperatureAccuracy: {
     range: { min: -2, max: 2, outlierProbability: 0.05, type: "float" }
   },
@@ -175,7 +175,7 @@ hvac: {
   }
 },
 refrigerator: {
-  "Serial Number": applianceMap["Refrigerator"], // Array of values
+  SerialNumber: applianceMap["Refrigerator"], // Array of values
   FridgeTemperature: {
     range: { min: 35, max: 40, outlierProbability: 0.05, type: "float" }
   },
@@ -193,7 +193,7 @@ refrigerator: {
   }
 },
 washer: {
-  "Serial Number": applianceMap["Washer"], // Array of values
+  SerialNumber: applianceMap["Washer"], // Array of values
   WaterUsage: {
     range: { min: 15, max: 20, outlierProbability: 0.01, type: "int" }
   },
@@ -217,10 +217,37 @@ washer: {
 
 const parentFolder = "data/s3/";
 generateDummyData("hvac", columnConfig, parentFolder, {
-  keyAttribute: "Serial Number",
+  keyAttribute: "SerialNumber",
   degradationDays: 30,
   degradationColumns: ["FilterDifferential", "EnergyConsumption"],
   degradationProportion: 0.1,
-  timespanDays: 30,
+  timespanDays: 2,
+  outputFormat: "csv" // Specify output format as CSV
+});
+
+generateDummyData("refrigerator", columnConfig, parentFolder, {
+  keyAttribute: "SerialNumber",
+  degradationDays: 30,
+  degradationColumns: ["FreezerTemperature", "EnergyConsumption"],
+  degradationProportion: 0.1,
+  timespanDays: 2,
+  outputFormat: "csv" // Specify output format as CSV
+});
+
+generateDummyData("dishwasher", columnConfig, parentFolder, {
+  keyAttribute: "SerialNumber",
+  degradationDays: 30,
+  degradationColumns: ["MaxDecibels", "EnergyConsumption"],
+  degradationProportion: 0.1,
+  timespanDays: 2,
+  outputFormat: "csv" // Specify output format as CSV
+});
+
+generateDummyData("washer", columnConfig, parentFolder, {
+  keyAttribute: "SerialNumber",
+  degradationDays: 30,
+  degradationColumns: ["EnergyConsumption", "VibrationLevel"],
+  degradationProportion: 0.1,
+  timespanDays: 2,
   outputFormat: "csv" // Specify output format as CSV
 });
