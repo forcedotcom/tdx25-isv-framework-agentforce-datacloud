@@ -7,6 +7,14 @@
       "default": true,
       "package": "tdx25afdcBase",
       "versionDescription": ""
+    },
+    {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "path": "data-app",
+      "default": false,
+      "package": "tdx25afdcDK",
+      "versionDescription": ""
     }
   ],
   "name": "tdx25-isv-framework-agentforce-datacloud",
@@ -14,6 +22,10 @@
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "63.0",
   "packageAliases": {
-    "tdx25afdcBase": "0HoHs000000g2PcKAI"
+    "tdx25afdcBase": "0HoHs000000g2PcKAI",
+    "tdx25afdcDK": "0HoHs000000g2PhKAI",
+    "tdx25afdcDK@0.1.0-1-issue6": "04tHs000000n0CHIAY",
+    "tdx25afdcDK@0.1.0-2-issue6": "04tHs000000n0GUIAY",
+    "tdx25afdcDK@0.1.0-3-issue6": "04tHs000000n0GZIAY"
   }
 }
