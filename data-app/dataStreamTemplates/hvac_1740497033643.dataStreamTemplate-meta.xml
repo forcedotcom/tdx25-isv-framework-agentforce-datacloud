@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataStreamTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataConnectionSourceParameters>
+        <fullName>failWhenNoData</fullName>
+        <paramName>failWhenNoData</paramName>
+        <value>false</value>
+    </dataConnectionSourceParameters>
+    <dataConnectionSourceParameters>
+        <fullName>fileName</fullName>
+        <paramName>fileName</paramName>
+        <value>*.csv</value>
+    </dataConnectionSourceParameters>
+    <dataConnectionSourceParameters>
+        <fullName>fileType</fullName>
+        <paramName>fileType</paramName>
+        <value>CSV</value>
+    </dataConnectionSourceParameters>
+    <dataConnectionSourceParameters>
+        <fullName>headerlessRetrievalEnabled</fullName>
+        <paramName>headerlessRetrievalEnabled</paramName>
+        <value>false</value>
+    </dataConnectionSourceParameters>
+    <dataConnectionSourceParameters>
+        <fullName>importDirectory</fullName>
+        <paramName>importDirectory</paramName>
+        <value>hvac/</value>
+    </dataConnectionSourceParameters>
+    <dataSourceBundleDefinition>PropertyManager</dataSourceBundleDefinition>
+    <dataSourceObject>hvac1</dataSourceObject>
+    <masterLabel>hvac</masterLabel>
+    <objectCategory>Salesforce_SFDCReferenceModel_0_93.Related</objectCategory>
+    <refreshFrequency>NONE</refreshFrequency>
+    <refreshMode>UPSERT</refreshMode>
+    <sourceObjectName>mvpbo2__hvac</sourceObjectName>
+    <streamType>INGEST</streamType>
+    <templateVersion>2</templateVersion>
+</DataStreamTemplate>

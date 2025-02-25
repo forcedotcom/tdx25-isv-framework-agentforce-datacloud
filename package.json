@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Salesforce App",
   "scripts": {
-    "createOrg": "sf org create scratch -f config/project-scratch-def.json -w 10 -y 30 -d -a", 
+    "createOrg": "sf org create scratch -f config/project-scratch-def.json -w 10 -y 30 -d -a",
     "deletePMData": "node scripts/js/deletePropertyManagerData.js",
     "generateS3Data": "node scripts/js/generateData.js",
     "insertPMData": "sf data import tree -p data/salesforce/dataload-plan.json --json > data/salesforce/dataload-result.json",
@@ -45,6 +45,6 @@
   },
   "dependencies": {
     "date-fns": "^4.1.0",
-    "uuid": "^11.0.5"
+    "uuid": "^11.1.0"
   }
 }

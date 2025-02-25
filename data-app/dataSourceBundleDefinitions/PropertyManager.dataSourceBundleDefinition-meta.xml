@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSourceBundleDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataPlatform>AwsS3</dataPlatform>
+    <description>Collection of Data Streams for Property Manager appliance logs</description>
+    <icon>standard:canvas</icon>
+    <isMultiDeploymentSupported>false</isMultiDeploymentSupported>
+    <masterLabel>PropertyManager</masterLabel>
+</DataSourceBundleDefinition>
