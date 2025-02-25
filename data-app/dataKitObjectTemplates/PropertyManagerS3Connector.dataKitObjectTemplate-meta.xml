@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataKitObjectTemplate xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <developerName xsi:nil="true"/>
+    <entityPayload>{&quot;connection&quot;:{&quot;connectorType&quot;:&quot;AwsS3&quot;,&quot;method&quot;:&quot;Ingress&quot;,&quot;credentials&quot;:[{&quot;paramName&quot;:&quot;authenticationOption&quot;,&quot;value&quot;:&quot;accessKeyAndSecret&quot;}],&quot;lastModifiedDate&quot;:&quot;2025-02-25T14:08:39.000Z&quot;,&quot;editable&quot;:true,&quot;connectorLabel&quot;:&quot;Amazon S3&quot;,&quot;deletable&quot;:true,&quot;label&quot;:&quot;PropertyManagerS3Connector&quot;,&quot;params&quot;:[{&quot;paramName&quot;:&quot;bucketName&quot;,&quot;value&quot;:&quot;tdx25-agentforce-datacloud&quot;},{&quot;paramName&quot;:&quot;parentDirectory&quot;,&quot;value&quot;:&quot;/&quot;}],&quot;url&quot;:&quot;/services/data/v63.0/ssot/connections/9cg7X0000004CTrQAM&quot;,&quot;createdDate&quot;:&quot;2025-02-25T14:08:36.000Z&quot;,&quot;name&quot;:&quot;PropertyManagerS3Connector&quot;,&quot;namespace&quot;:&quot;mvpbo2&quot;,&quot;iconUrl&quot;:&quot;/cdp/images/connectors/AwsS3.svg&quot;,&quot;id&quot;:&quot;9cg7X0000004CTrQAM&quot;,&quot;syncStatus&quot;:&quot;None&quot;,&quot;status&quot;:&quot;Active&quot;}}</entityPayload>
+    <masterLabel>PropertyManagerS3Connector</masterLabel>
+    <parentDataPackageKitDefinitionName xsi:nil="true"/>
+    <sourceObject>mvpbo2__PropertyManagerS3Connector</sourceObject>
+    <sourceObjectType>MktDataConnection</sourceObjectType>
+    <templateVersion>1</templateVersion>
+</DataKitObjectTemplate>
