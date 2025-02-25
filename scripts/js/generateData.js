@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const { faker } = require("@faker-js/faker");
+const fastcsv = require("fast-csv");
 
 function createApplianceMap(applianceFiles) {
   const typeToSerialsMap = {};
@@ -21,7 +22,7 @@ function createApplianceMap(applianceFiles) {
   return typeToSerialsMap;
 }
 
-function generateDummyData(columnsConfig, outputFolder, options = {}) {
+function generateDummyData(applianceName, columnConfig, outputFolder, options = {}) {
   const {
     keyAttribute = null,
     numRecords = 0,
@@ -30,8 +31,11 @@ function generateDummyData(columnsConfig, outputFolder, options = {}) {
     degradationDays = 30,
     degradationColumns = [],
     degradationProportion = 0.1,
-    timespanDays = 30
+    timespanDays = 30,
+    outputFormat = "csv" 
   } = options;
+
+  const columnsConfig = columnConfig[applianceName];
 
   const generateTimestamp = (day) => {
     const relativeDate = new Date(baseDate);
@@ -114,8 +118,15 @@ function generateDummyData(columnsConfig, outputFolder, options = {}) {
       }
     }
 
-    const outputFilePath = path.join(outputFolder, `data_${dateString}.json`);
-    fs.writeFileSync(outputFilePath, JSON.stringify(data, null, 2));
+    const outputFilePath = path.join(outputFolder, `${applianceName}_data_${dateString}.${outputFormat}`);
+    if (outputFormat === "json") {
+      fs.writeFileSync(outputFilePath, JSON.stringify(data, null, 2));
+    } else if (outputFormat === "csv") {
+      const ws = fs.createWriteStream(outputFilePath);
+      fastcsv
+        .write(data, { headers: true })
+        .pipe(ws);
+    }
     console.log(`Generated ${data.length} dummy records for ${dateString} and saved to ${outputFilePath}`);
   }
 }
@@ -130,17 +141,16 @@ const applianceFiles = [
 const applianceMap = createApplianceMap(applianceFiles);
 // print keys in applianceMap
 
-// Example usage:
-const dishwasherColConfig = {
+const columnConfig = {
+  dishwasher: {
   "Serial Number": applianceMap["Dishwasher"], // Array of values
   Temperature: { range: { min: 68, max: 78, type: "float" } }, // Range with default outlier probability
   Humidity: {
     range: { min: 30, max: 60, outlierProbability: 0.05, type: "float" }
   }, // Range with custom outlier probability
   Status: ["On", "Off"] // Array of values
-};
-
-const hvacColConfig = {
+},
+hvac: {
   "Serial Number": applianceMap["Dishwasher"], // Array of values
   TemperatureAccuracy: {
     range: { min: -2, max: 2, outlierProbability: 0.05, type: "float" }
@@ -163,9 +173,8 @@ const hvacColConfig = {
   DuctPressure: {
     range: { min: 0.3, max: 0.8, outlierProbability: 0.05, type: "float" }
   }
-};
-
-const refrigeratorColConfig = {
+},
+refrigerator: {
   "Serial Number": applianceMap["Refrigerator"], // Array of values
   FridgeTemperature: {
     range: { min: 35, max: 40, outlierProbability: 0.05, type: "float" }
@@ -182,9 +191,8 @@ const refrigeratorColConfig = {
   DefrostCycleFrequency: {
     range: { min: 6, max: 8, outlierProbability: 0.05, type: "int" }
   }
-};
-
-const washerColConfig = {
+},
+washer: {
   "Serial Number": applianceMap["Washer"], // Array of values
   WaterUsage: {
     range: { min: 15, max: 20, outlierProbability: 0.01, type: "int" }
@@ -204,13 +212,15 @@ const washerColConfig = {
   VibrationLevel: {
     range: { min: 0.5, max: 1.0, outlierProbability: 0.05, type: "float" }
   }
-};
+}
+}
 
 const parentFolder = "data/s3/";
-generateDummyData(hvacColConfig, parentFolder, {
+generateDummyData("hvac", columnConfig, parentFolder, {
   keyAttribute: "Serial Number",
   degradationDays: 30,
   degradationColumns: ["FilterDifferential", "EnergyConsumption"],
   degradationProportion: 0.1,
-  timespanDays: 30
+  timespanDays: 30,
+  outputFormat: "csv" // Specify output format as CSV
 });
