@@ -1,12 +1,19 @@
 {
   "packageDirectories": [
     {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
       "path": "force-app",
-      "default": true
+      "default": true,
+      "package": "tdx25afdcBase",
+      "versionDescription": ""
     }
   ],
   "name": "tdx25-isv-framework-agentforce-datacloud",
   "namespace": "mvpbo2",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "63.0"
+  "sourceApiVersion": "63.0",
+  "packageAliases": {
+    "tdx25afdcBase": "0HoHs000000g2PcKAI"
+  }
 }
