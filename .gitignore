@@ -8,6 +8,7 @@
 .localdevserver/
 deploy-options.json
 data/salesforce/*.csv
+data/salesforce/dataload-result.json
 
 # LWC VSCode autocomplete
 **/lwc/jsconfig.json

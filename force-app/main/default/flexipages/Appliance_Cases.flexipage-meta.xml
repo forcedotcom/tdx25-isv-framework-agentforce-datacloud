@@ -120,8 +120,8 @@
         </itemInstances>
         <itemInstances>
             <fieldInstance>
-                <fieldItem>Record.Appliance__r.Unit__r.Name</fieldItem>
-                <identifier>RecordAppliance_rUnit_rNameField</identifier>
+                <fieldItem>Record.mvpbo2__Appliance__r.mvpbo2__Unit__r.Name</fieldItem>
+                <identifier>Recordmvpbo2_Appliance_rmvpbo2_Unit_rNameField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>

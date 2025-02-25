@@ -2,7 +2,7 @@ const { execSync } = require("child_process");
 const path = require("path");
 const { writeToPath } = require("@fast-csv/format");
 
-const objectList = ["Case", "Contact", "Appliance__c", "Unit__c" ];
+const objectList = ["Case", "Contact", "mvpbo2__Appliance__c", "mvpbo2__Unit__c" ];
 
 for (let object in objectList) {
   let objectResult = execSync(
