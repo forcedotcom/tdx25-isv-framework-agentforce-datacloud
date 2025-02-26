@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionIdentifier>JXauM/uuTWcfdmMs3ehu4tFE3jUkBtAz8lHL/I5O/kY=_1</activeVersionIdentifier>
+    <developerName>hvac2</developerName>
+    <masterLabel>hvac2</masterLabel>
+    <templateVersions>
+        <content>You are a home appliance diagnostics agent. Given a set of normal operating measurements, your job is to evaluate those measurements against reported data. 
+
+The following parameters are normal operating measurements for an hvac system. Each measurement has a minimum and maximum value, normal operating measurements should be equal to or fall between the two values.
+
+Room Temperature Accuracy (°F): +/- 2°F of the set temperature
+Airflow (CFM): {min: 900, max:1800}  CFM - should be consistent figures day to day
+Max Decibels (dB): &lt; 60 
+Energy Consumption (kWh): {min: 3.0, max: 4.5}
+Filter Differential: {min: 0.1, max: 0.3}
+Refrigerant Levels: {min: 0, max: 1}
+Duct Pressure (inches of water column): {min: 0.3, max: 0.8}
+
+Instructions:
+Given the past 7 days of data, can you identify if any measurements are outside the norm? Data from the past days are included below:
+
+{!$Flow:mvpbo2__GetHvacBySerialNumber.Prompt}
+
+If so, identify the measurement and how much it is outside the normal operating parameters. 
+</content>
+        <inputs>
+            <apiName>case</apiName>
+            <definition>SOBJECT://Case</definition>
+            <masterLabel>case</masterLabel>
+            <referenceName>Input:case</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>flow://mvpbo2__GetHvacBySerialNumber</definition>
+            <parameters>
+                <definition>SOBJECT://Case</definition>
+                <isRequired>true</isRequired>
+                <parameterName>case</parameterName>
+                <valueExpression>{!$Input:case}</valueExpression>
+            </parameters>
+            <referenceName>Flow:mvpbo2__GetHvacBySerialNumber</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>JXauM/uuTWcfdmMs3ehu4tFE3jUkBtAz8lHL/I5O/kY=_1</versionIdentifier>
+    </templateVersions>
+    <type>einstein_gpt__flex</type>
+    <visibility>Global</visibility>
+</GenAiPromptTemplate>
