@@ -44,7 +44,7 @@ flowchart TD
 
 Information about acquiring appropriate environments is included below in [FAQ](#faq).
 
-- [ ] Developer edition or scratch org with Data Cloud and Agentforce licenses
+- [ ] Developer edition or scratch org with Data Cloud and Agentforce licenses. The included project-scratch-def.json contains all relevant features and settings.
 - [ ] Turn on Einstein (Setup > Einstein Setup > Turn On Einstein)
 - [ ] Ensure Data Cloud is provisioned (Setup > Data Cloud Home). You should have a Tenant Endpoint listed under Your Home Org Details.
 - [ ] User should have the following permissions assigned:

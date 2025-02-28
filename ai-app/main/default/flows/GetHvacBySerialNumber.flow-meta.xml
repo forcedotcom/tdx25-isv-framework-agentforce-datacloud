@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <description>Logs the current Template-Triggered Prompt Flow</description>
+        <name>AppAnalytics_Log_Action</name>
+        <label>AppAnalytics Log Action</label>
+        <locationX>176</locationX>
+        <locationY>134</locationY>
+        <actionName>AgentLoggerGlobal</actionName>
+        <actionType>apex</actionType>
+        <connector>
+            <targetReference>GetHvacRecords</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>actionName</name>
+            <value>
+                <stringValue>HVAC_PROMPT_FLOW</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>AgentLoggerGlobal</nameSegment>
+        <offset>0</offset>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
     <apiVersion>63.0</apiVersion>
     <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
     <assignments>
@@ -7,7 +29,7 @@
         <elementSubtype>AddPromptInstructions</elementSubtype>
         <label>Send Diagnostics to Prompt Template</label>
         <locationX>264</locationX>
-        <locationY>350</locationY>
+        <locationY>458</locationY>
         <assignmentItems>
             <assignToReference>$Output.Prompt</assignToReference>
             <operator>Add</operator>
@@ -36,7 +58,7 @@ Temperature Accuracy: {!Loop_Diagnostic_Records.TemperatureAccuracy__c}
         <name>Loop_Diagnostic_Records</name>
         <label>Loop Diagnostic Records</label>
         <locationX>176</locationX>
-        <locationY>242</locationY>
+        <locationY>350</locationY>
         <collectionReference>GetHvacRecords</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
@@ -66,7 +88,7 @@ Temperature Accuracy: {!Loop_Diagnostic_Records.TemperatureAccuracy__c}
         <name>GetHvacRecords</name>
         <label>GetHvacRecords</label>
         <locationX>176</locationX>
-        <locationY>134</locationY>
+        <locationY>242</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Loop_Diagnostic_Records</targetReference>
@@ -92,7 +114,7 @@ Temperature Accuracy: {!Loop_Diagnostic_Records.TemperatureAccuracy__c}
         <locationX>50</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>GetHvacRecords</targetReference>
+            <targetReference>AppAnalytics_Log_Action</targetReference>
         </connector>
         <triggerType>Capability</triggerType>
     </start>
