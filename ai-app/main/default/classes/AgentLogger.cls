@@ -60,7 +60,9 @@ public with sharing class AgentLogger {
    */
   public enum AGENT_ENUMS {
     AI_INVALID_ENUM,
-    HVAC_TEMP_TRIGGERED_PROMPT_FLOW
+    HVAC_PROMPT_FLOW,
+    DISHWASHER_PROMPT_FLOW,
+    WASHER_PROMPT_FLOW
   }
 
   /**
@@ -101,17 +103,14 @@ public with sharing class AgentLogger {
    */
   private static AGENT_ENUMS getInteractionLabel(
     String componentName
-  ) {
-    string name = componentName.toUpperCase();
-    AGENT_ENUMS enumVal;
+  ) {   
     try {
-      enumVal = AGENT_ENUMS.valueOf(name);
+      return AGENT_ENUMS.valueOf(componentName.toUpperCase());
     } catch (Exception e) {
       System.debug(
         'Invalid interaction label provided ' + componentName 
       );
       return AGENT_ENUMS.AI_INVALID_ENUM;
     }
-    return enumVal;
   }
 }

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aiPluginUtterances>
+        <developerName>utterance_ireceivedc0</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>utterance_ireceivedc0</masterLabel>
+        <utterance>I received case 1000070 about my hvac, can you tell me if there are any abnormal readings from the appliance</utterance>
+    </aiPluginUtterances>
+    <aiPluginUtterances>
+        <developerName>utterance_caseabouta1</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>utterance_caseabouta1</masterLabel>
+        <utterance>Case 100040 about a washing machine came in, what can you tell me about it? The tenant said that it has been taking a long time to wash their clothes</utterance>
+    </aiPluginUtterances>
+    <canEscalate>false</canEscalate>
+    <description>Reports back on appliance diagnostics, checking for abnormal readings or measurements outside manufacture recommendations. Aimed at property managers</description>
+    <developerName>Appliance_Diagnostics</developerName>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__IdentifyRecordByName</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>hvac</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>washer</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>If someone asks about an appliance without an associated action, tell them that diagnostic evaluation is not available for that appliance at this time</description>
+        <developerName>instruction_ifsomeonea0</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_ifsomeonea0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Always request a case number</description>
+        <developerName>instruction_alwaysrequ1</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_alwaysrequ1</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If you are unsure or measurements are borderlined, say so</description>
+        <developerName>instruction_ifyouareun2</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_ifyouareun2</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Appliance Diagnostics</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your only job is to answer questions about appliances for which actions are assigned.</scope>
+</GenAiPlugin>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Your job is to take a given Case number and lookup appliance diagnostic information based on the associated appliance manufacturer serial number. You are specifically assisting with washer appliances which might also be referred to as washing machines</description>
+    <invocationTarget>washer</invocationTarget>
+    <invocationTargetType>generatePromptResponse</invocationTargetType>
+    <isConfirmationRequired>false</isConfirmationRequired>
+    <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+    <masterLabel>washer</masterLabel>
+    <progressIndicatorMessage>Gathering device logs</progressIndicatorMessage>
+</GenAiFunction>
