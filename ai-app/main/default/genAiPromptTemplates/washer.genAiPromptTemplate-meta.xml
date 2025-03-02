@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionIdentifier>ytz8t/NSxMfVV+w0/CDBg8N/AwHZoTJuaAknWWANJeI=_1</activeVersionIdentifier>
+    <developerName>washer</developerName>
+    <masterLabel>washer</masterLabel>
+    <templateVersions>
+        <content>You are a home appliance diagnostics agent. Given a set of normal operating measurements, your job is to evaluate those measurements against reported data. 
+
+The following parameters are normal operating measurements for a washing machine. Each measurement has a minimum and maximum value, normal operating measurements should be equal to or fall between the two values.
+
+Water Usage: {min: 15, max 20}
+Max Water Temperature: {min: 40, max: 140}
+Spin Speed: {min: 600, max: 1400}
+Max Decibels: {min: 50, max: 70}
+Energy Consumption: {min: 0.2, max: 1.5}
+Vibration Level: {min: 0.5, max: 1.0}
+
+Instructions:
+Given the past 7 days of data, can you identify if any measurements are outside the norm? Data from the past days are included below:
+
+{!$Apex:WasherDataRetriever.Prompt}
+
+If so, identify the measurement and how much it is outside the normal operating parameters. 
+
+</content>
+        <inputs>
+            <apiName>case_1</apiName>
+            <definition>SOBJECT://Case</definition>
+            <masterLabel>case 1</masterLabel>
+            <referenceName>Input:case_1</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT35Turbo</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>apex://mvpbo2__WasherDataRetriever</definition>
+            <parameters>
+                <definition>SOBJECT://Case</definition>
+                <isRequired>true</isRequired>
+                <parameterName>case_1</parameterName>
+                <valueExpression>{!$Input:case_1}</valueExpression>
+            </parameters>
+            <referenceName>Apex:WasherDataRetriever</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>ytz8t/NSxMfVV+w0/CDBg8N/AwHZoTJuaAknWWANJeI=_1</versionIdentifier>
+    </templateVersions>
+    <type>einstein_gpt__flex</type>
+    <visibility>Global</visibility>
+</GenAiPromptTemplate>
