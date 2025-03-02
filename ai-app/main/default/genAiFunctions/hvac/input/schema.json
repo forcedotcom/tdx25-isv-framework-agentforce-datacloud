@@ -1,0 +1,24 @@
+{
+  "required" : [ "Input:case" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "Input:case" : {
+      "title" : "case",
+      "description" : "Request the case number",
+      "lightning:type" : "lightning__recordInfoType",
+      "lightning:sObjectInfo" : {
+        "apiName" : "Case"
+      },
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "citationMode" : {
+      "title" : "Citation Mode",
+      "description" : "Select Citation Mode",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}
