@@ -1,26 +1,30 @@
 global class PostInstall implements InstallHandler {
+  @TestVisible
+  private PermissionSetLocator permSetLocator;
+  
+  public PostInstall() {
+    this.permSetLocator = new DefaultPermissionSetLocator();
+  }
+  
+  @TestVisible
+  public PostInstall(PermissionSetLocator locator) {
+    this.permSetLocator = locator;
+  }
+  
   global void onInstall(InstallContext context) {
+    PermissionSet permSet = permSetLocator.getDataCloudPermissionSet();
+    
+    if (permSet == null) {
+      System.debug('No Data Cloud permission set found. Skipping permission updates.');
+      return;
+    }
+
     // create list of sObject names in your app
     List<String> sObjectTypeNames = new List<String>{
       'mvpbo2__Appliance__c',
       'mvpbo2__Unit__c',
       'Case'
     };
-
-    // Query the Data Cloud Salesforce Connector, api name changes between Spring and Summer release
-    PermissionSet permSet = [
-      SELECT Id
-      FROM PermissionSet
-      WHERE
-        Name = 'sfdc_a360_sfcrm_data_extract'
-        OR Name = 'sfdc_c360a_sfdctrust_permSet'
-      LIMIT 1
-    ];
-    // if no permsets are returned, subscriber does not have Data Cloud. Print message and exit
-    if (permSet == null) {
-      System.debug('No permission sets found.');
-      return;
-    }
 
     List<ObjectPermissions> objectPermList = new List<ObjectPermissions>();
     List<FieldPermissions> fieldPermsList = new List<FieldPermissions>();
@@ -113,6 +117,25 @@ global class PostInstall implements InstallHandler {
       System.debug(
         'An error occurred while adding field permissions: ' + e.getMessage()
       );
+    }
+  }
+
+  public interface PermissionSetLocator {
+    PermissionSet getDataCloudPermissionSet();
+  }
+  
+  private class DefaultPermissionSetLocator implements PermissionSetLocator {
+    public PermissionSet getDataCloudPermissionSet() {
+      try {
+        return [
+          SELECT Id
+          FROM PermissionSet
+          WHERE Name = 'sfdc_a360_sfcrm_data_extract' OR Name = 'sfdc_c360a_sfdctrust_permSet'
+          LIMIT 1
+        ];
+      } catch (QueryException e) {
+        return null;
+      }
     }
   }
 }
