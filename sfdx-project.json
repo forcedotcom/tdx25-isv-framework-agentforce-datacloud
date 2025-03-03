@@ -6,7 +6,8 @@
       "path": "force-app",
       "default": true,
       "package": "tdx25afdcBase",
-      "versionDescription": ""
+      "versionDescription": "",
+      "definitionFile": "config/force-app_project-scratch-def.json"
     },
     {
       "versionName": "ver 0.1",
@@ -14,7 +15,21 @@
       "path": "data-app",
       "default": false,
       "package": "tdx25afdcDK",
-      "versionDescription": ""
+      "versionDescription": "",
+      "definitionFile": "config/project-scratch-def.json"
+
+    },
+    {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "path": "ai-app",
+      "default": false,
+      "package": "tdx25afdcAI",
+      "versionDescription": "",
+      "packageMetadataAccess": {
+        "permissionSets": ["EinsteinGPTPromptTemplateManager"]
+      },
+      "definitionFile": "config/project-scratch-def.json"
     }
   ],
   "name": "tdx25-isv-framework-agentforce-datacloud",
@@ -26,6 +41,7 @@
     "tdx25afdcDK": "0HoHs000000g2PhKAI",
     "tdx25afdcDK@0.1.0-1-issue6": "04tHs000000n0CHIAY",
     "tdx25afdcDK@0.1.0-2-issue6": "04tHs000000n0GUIAY",
-    "tdx25afdcDK@0.1.0-3-issue6": "04tHs000000n0GZIAY"
+    "tdx25afdcDK@0.1.0-3-issue6": "04tHs000000n0GZIAY",
+    "tdx25afdcAI": "0HoHs000000g2PmKAI"
   }
 }
