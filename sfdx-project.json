@@ -17,7 +17,6 @@
       "package": "tdx25afdcDK",
       "versionDescription": "",
       "definitionFile": "config/project-scratch-def.json"
-
     },
     {
       "versionName": "ver 0.1",
@@ -27,7 +26,9 @@
       "package": "tdx25afdcAI",
       "versionDescription": "",
       "packageMetadataAccess": {
-        "permissionSets": ["EinsteinGPTPromptTemplateManager"]
+        "permissionSets": [
+          "EinsteinGPTPromptTemplateManager"
+        ]
       },
       "definitionFile": "config/project-scratch-def.json"
     }
@@ -39,9 +40,7 @@
   "packageAliases": {
     "tdx25afdcBase": "0HoHs000000g2PcKAI",
     "tdx25afdcDK": "0HoHs000000g2PhKAI",
-    "tdx25afdcDK@0.1.0-1-issue6": "04tHs000000n0CHIAY",
-    "tdx25afdcDK@0.1.0-2-issue6": "04tHs000000n0GUIAY",
-    "tdx25afdcDK@0.1.0-3-issue6": "04tHs000000n0GZIAY",
-    "tdx25afdcAI": "0HoHs000000g2PmKAI"
+    "tdx25afdcAI": "0HoHs000000g2PmKAI",
+    "tdx25afdcBase@0.1.0-1": "04tHs000000n1oLIAQ"
   }
 }
