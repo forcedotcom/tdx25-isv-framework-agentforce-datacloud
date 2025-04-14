@@ -8,10 +8,6 @@
  * 3. Behavior Verification - Verifies the mock was called with expected parameters
  * 4. Arrange-Act-Assert Pattern - Clearly separates test setup, execution, and verification
  * 5. Edge Case Testing - Tests both valid and invalid input scenarios
- * 
- * @see AgentLogger
- * @author Your Team
- * @date Current Date
  */
 @isTest
 private class AgentLoggerTest {
