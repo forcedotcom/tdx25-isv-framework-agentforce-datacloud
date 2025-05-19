@@ -1,5 +1,25 @@
 # Implementing App Analytics in Agentforce: Developer Guide
 
+- [Implementing App Analytics in Agentforce: Developer Guide](#implementing-app-analytics-in-agentforce-developer-guide)
+  - [Overview](#overview)
+  - [Files and Structure](#files-and-structure)
+    - [Core Logging Components](#core-logging-components)
+    - [Test Classes](#test-classes)
+    - [Example Implementation](#example-implementation)
+  - [Design Patterns Used](#design-patterns-used)
+  - [How to Use This Code in Your App](#how-to-use-this-code-in-your-app)
+    - [Step 1: Add the Core Logging Classes](#step-1-add-the-core-logging-classes)
+    - [Step 2: Define Your Events](#step-2-define-your-events)
+    - [Step 3: Log Events from Apex](#step-3-log-events-from-apex)
+    - [Step 4: Log Events from Flow](#step-4-log-events-from-flow)
+  - [Testing Your Implementation](#testing-your-implementation)
+    - [Running the Included Tests](#running-the-included-tests)
+    - [Creating Your Own Tests](#creating-your-own-tests)
+  - [Gotchas and Tips](#gotchas-and-tips)
+  - [Example Integration: WasherDataRetriever](#example-integration-washerdataretriever)
+  - [Example Questions Answered by AppAnalytics](#example-questions-answered-by-appanalytics)
+  - [Additional Resources](#additional-resources)
+
 ## Overview
 
 This repository contains a reference implementation for integrating Salesforce App Analytics with Agentforce applications. The code demonstrates best practices for logging agent activities, following well-established design patterns that promote testability and maintainability.
@@ -137,6 +157,15 @@ The `WasherDataRetriever` class demonstrates how to:
 1. Log an event before performing an operation
 1. Use `AgentLoggerGlobal` for Flow-accessible logging
 1. Handle errors gracefully while still ensuring events are logged
+
+## Example Questions Answered by AppAnalytics
+
+With proper instrumentation of each action, you can uncover the following types of insights from your package:
+
+- How many of our agent actions were invoked last week by subscriber org `00D...`?
+- What does adoption look like at subscriber Y? How many distinct users are using our actions?
+- What is our most popular agent action across all customers?
+- What is the distribution of action usage at subscriber Z? Did all users utilize agent actions evenly or is usage primarily driven by a small number of users?
 
 ## Additional Resources
 
